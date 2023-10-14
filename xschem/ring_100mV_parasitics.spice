@@ -1,0 +1,814 @@
+* NGSPICE file created from ring_100mV.ext - technology: sky130A
+
+
+* Top level circuit ring_100mV
+
+X0 mdls_inv_8.IN.t3 mdls_inv_0.OUT.t5 a_1326_n5292.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X1 mdls_inv_2.IN mdls_inv_6.OUT.t5 a_1326_n294.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X2 a_1326_1372.t3 mdls_inv_2.IN mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X3 mdls_inv_2.SS mdls_inv_9.OUT a_5150_n2515.t0 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X4 a_5150_n4181.t1 mdls_inv_9.OUT mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X5 mdls_inv_7.OUT mdls_inv_7.IN a_5150_n849.t6 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X6 mdls_inv_8.IN.t2 mdls_inv_0.OUT.t6 a_1326_n5292.t6 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X7 mdls_inv_3.OUT.t3 mdls_inv_2.IN a_1326_1372.t6 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X8 mdls_inv_2.SS mdls_inv_6.IN.t5 a_1326_n3626.t0 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X9 mdls_inv_0.OUT.t3 mdls_inv_9.OUT a_5150_n4181.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X10 mdls_inv_0.OUT.t2 mdls_inv_9.OUT a_5150_n4181.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X11 mdls_inv_2.SS mdls_inv_7.OUT a_5150_n849.t0 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X12 a_5150_817.t1 mdls_inv_2.OUT mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X13 mdls_inv_2.SS mdls_inv_6.OUT.t6 a_1326_n1960.t6 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X14 a_5150_2483.t2 mdls_inv_2.IN mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X15 mdls_inv_2.DD mdls_inv_7.IN a_5150_181# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X16 mdls_inv_0.OUT.t4 mdls_inv_9.OUT a_5150_n4817# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X17 a_5150_n1485# mdls_inv_7.IN mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X18 mdls_inv_2.IN mdls_inv_6.OUT.t7 a_1326_n294.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X19 a_1326_n3626.t2 mdls_inv_8.IN.t5 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X20 mdls_inv_2.IN mdls_inv_6.OUT.t8 a_1326_n294.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X21 mdls_inv_8.IN.t4 mdls_inv_0.OUT.t7 a_2802_n4474# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X22 a_2802_n1142# mdls_inv_6.IN.t6 mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X23 mdls_inv_6.OUT.t3 mdls_inv_6.IN.t7 a_1326_n1960.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X24 mdls_inv_6.OUT.t4 mdls_inv_6.IN.t8 a_1326_n1960.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X25 mdls_inv_6.OUT.t1 mdls_inv_6.IN.t9 a_1326_n1960.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X26 mdls_inv_3.OUT.t2 mdls_inv_2.IN a_1326_1372.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X27 mdls_inv_0.OUT.t1 mdls_inv_9.OUT a_5150_n4181.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X28 mdls_inv_2.DD mdls_inv_0.OUT.t8 a_5150_n4817# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X29 a_1326_n1960.t1 mdls_inv_6.IN.t10 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X30 mdls_inv_2.SS mdls_inv_2.IN a_1326_n294.t6 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X31 mdls_inv_2.DD mdls_inv_2.IN a_2802_524# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X32 mdls_inv_3.OUT.t1 mdls_inv_2.IN a_1326_1372.t1 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X33 mdls_inv_3.OUT.t0 mdls_inv_2.IN a_1326_1372.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X34 mdls_inv_0.OUT.t0 mdls_inv_9.OUT a_5150_n4181.t2 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X35 mdls_inv_6.IN.t2 mdls_inv_8.IN.t6 a_1326_n3626.t6 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X36 mdls_inv_2.DD mdls_inv_3.OUT.t5 a_2802_2190# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X37 mdls_inv_6.IN.t1 mdls_inv_8.IN.t7 a_1326_n3626.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X38 mdls_inv_2.SS mdls_inv_7.IN a_5150_817.t6 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X39 a_1326_n294.t1 mdls_inv_6.OUT.t9 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X40 mdls_inv_6.IN.t0 mdls_inv_8.IN.t8 a_1326_n3626.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X41 mdls_inv_2.SS mdls_inv_2.OUT a_5150_2483.t0 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X42 mdls_inv_2.SS mdls_inv_0.OUT.t9 a_5150_n4181.t6 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X43 mdls_inv_7.OUT mdls_inv_7.IN a_5150_n1485# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X44 mdls_inv_2.DD mdls_inv_6.IN.t11 a_2802_n2808# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X45 a_5150_n2515.t2 mdls_inv_7.OUT mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X46 mdls_inv_2.SS mdls_inv_3.OUT.t6 a_1326_1372.t0 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X47 mdls_inv_2.DD mdls_inv_6.OUT.t10 a_2802_n1142# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X48 mdls_inv_2.OUT mdls_inv_2.IN a_5150_2483.t6 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X49 mdls_inv_6.OUT.t2 mdls_inv_6.IN.t12 a_2802_n1142# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X50 mdls_inv_7.IN mdls_inv_2.OUT a_5150_817.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X51 mdls_inv_2.SS mdls_inv_8.IN.t9 a_1326_n5292.t0 mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X52 a_1326_1372.t2 mdls_inv_2.IN mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X53 mdls_inv_2.IN mdls_inv_6.OUT.t11 a_1326_n294.t2 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X54 mdls_inv_2.IN mdls_inv_6.OUT.t12 a_2802_524# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X55 a_5150_n849.t2 mdls_inv_7.IN mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X56 mdls_inv_2.DD mdls_inv_6.IN.t13 a_2802_n2808# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X57 mdls_inv_2.DD mdls_inv_2.OUT a_5150_1847# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X58 mdls_inv_2.DD mdls_inv_8.IN.t10 a_2802_n4474# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X59 mdls_inv_2.DD mdls_inv_7.IN a_5150_181# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X60 mdls_inv_7.OUT mdls_inv_7.IN a_5150_n849.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X61 a_1326_n1960.t0 mdls_inv_6.IN.t14 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X62 mdls_inv_7.IN mdls_inv_2.OUT a_5150_181# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X63 mdls_inv_7.OUT mdls_inv_7.IN a_5150_n849.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X64 mdls_inv_7.OUT mdls_inv_7.IN a_5150_n849.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X65 mdls_inv_6.OUT.t0 mdls_inv_6.IN.t15 a_1326_n1960.t2 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X66 a_5150_n3151# mdls_inv_7.OUT mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X67 mdls_inv_6.IN.t4 mdls_inv_8.IN.t11 a_1326_n3626.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X68 mdls_inv_2.OUT mdls_inv_2.IN a_5150_1847# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X69 a_1326_n5292.t4 mdls_inv_0.OUT.t10 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X70 mdls_inv_9.OUT mdls_inv_7.OUT a_5150_n2515.t6 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X71 mdls_inv_9.OUT mdls_inv_7.OUT a_5150_n2515.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X72 a_5150_2483.t1 mdls_inv_2.IN mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X73 a_2802_n2808# mdls_inv_8.IN.t12 mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X74 mdls_inv_3.OUT.t4 mdls_inv_2.IN a_2802_2190# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X75 mdls_inv_9.OUT mdls_inv_7.OUT a_5150_n2515.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X76 mdls_inv_7.IN mdls_inv_2.OUT a_5150_817.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X77 mdls_inv_7.IN mdls_inv_2.OUT a_5150_817.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X78 mdls_inv_2.DD mdls_inv_2.IN a_2802_524# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X79 mdls_inv_2.OUT mdls_inv_2.IN a_5150_2483.t5 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X80 a_1326_n3626.t1 mdls_inv_8.IN.t13 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X81 a_5150_n4817# mdls_inv_9.OUT mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X82 mdls_inv_2.DD mdls_inv_6.OUT.t13 a_2802_n1142# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X83 mdls_inv_2.OUT mdls_inv_2.IN a_5150_2483.t4 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X84 mdls_inv_2.DD mdls_inv_3.OUT.t7 a_2802_2190# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X85 mdls_inv_2.OUT mdls_inv_2.IN a_5150_2483.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X86 mdls_inv_8.IN.t1 mdls_inv_0.OUT.t11 a_1326_n5292.t1 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X87 mdls_inv_8.IN.t0 mdls_inv_0.OUT.t12 a_1326_n5292.t2 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X88 a_5150_1847# mdls_inv_2.IN mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X89 a_1326_n5292.t3 mdls_inv_0.OUT.t13 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X90 mdls_inv_2.DD mdls_inv_9.OUT a_5150_n3151# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X91 mdls_inv_9.OUT mdls_inv_7.OUT a_5150_n3151# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X92 a_2802_n4474# mdls_inv_0.OUT.t14 mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X93 a_5150_n849.t1 mdls_inv_7.IN mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X94 mdls_inv_2.DD mdls_inv_7.OUT a_5150_n1485# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X95 a_5150_181# mdls_inv_2.OUT mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X96 mdls_inv_6.IN.t3 mdls_inv_8.IN.t14 a_2802_n2808# mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X97 a_2802_2190# mdls_inv_2.IN mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X98 a_2802_524# mdls_inv_6.OUT.t14 mdls_inv_2.DD mdls_inv_2.DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X99 a_5150_n4181.t0 mdls_inv_9.OUT mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X100 mdls_inv_2.DD mdls_inv_9.OUT a_5150_n3151# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X101 mdls_inv_2.DD mdls_inv_0.OUT.t15 a_5150_n4817# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X102 mdls_inv_9.OUT mdls_inv_7.OUT a_5150_n2515.t3 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X103 mdls_inv_7.IN mdls_inv_2.OUT a_5150_817.t2 mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X104 a_5150_n2515.t1 mdls_inv_7.OUT mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X105 mdls_inv_2.DD mdls_inv_7.OUT a_5150_n1485# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X106 mdls_inv_2.DD mdls_inv_8.IN.t15 a_2802_n4474# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X107 mdls_inv_2.DD mdls_inv_2.OUT a_5150_1847# mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X108 a_5150_817.t0 mdls_inv_2.OUT mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X109 a_1326_n294.t0 mdls_inv_6.OUT.t15 mdls_inv_2.SS mdls_inv_2.SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+R0 mdls_inv_0.OUT.n2 mdls_inv_0.OUT.t0 265.382
+R1 mdls_inv_0.OUT.n4 mdls_inv_0.OUT.n3 262.217
+R2 mdls_inv_0.OUT.n10 mdls_inv_0.OUT.t6 183.099
+R3 mdls_inv_0.OUT.n9 mdls_inv_0.OUT.t12 183.099
+R4 mdls_inv_0.OUT.t12 mdls_inv_0.OUT.n8 183.099
+R5 mdls_inv_0.OUT.n5 mdls_inv_0.OUT.t8 182.653
+R6 mdls_inv_0.OUT.t6 mdls_inv_0.OUT.n0 182.297
+R7 mdls_inv_0.OUT.n5 mdls_inv_0.OUT.t15 182.288
+R8 mdls_inv_0.OUT.n1 mdls_inv_0.OUT.t5 182.285
+R9 mdls_inv_0.OUT.n9 mdls_inv_0.OUT.t11 182.263
+R10 mdls_inv_0.OUT.t5 mdls_inv_0.OUT.n10 182.263
+R11 mdls_inv_0.OUT.t11 mdls_inv_0.OUT.n8 182.263
+R12 mdls_inv_0.OUT.n2 mdls_inv_0.OUT.t1 155.667
+R13 mdls_inv_0.OUT.n3 mdls_inv_0.OUT.t3 155.667
+R14 mdls_inv_0.OUT.t13 mdls_inv_0.OUT.n7 146.282
+R15 mdls_inv_1.IN mdls_inv_0.OUT.t10 145.889
+R16 mdls_inv_0.OUT.t10 mdls_inv_0.OUT.n13 145.857
+R17 mdls_inv_0.OUT.n11 mdls_inv_0.OUT.t13 145.851
+R18 mdls_inv_0.OUT.n15 mdls_inv_0.OUT.t14 135.911
+R19 mdls_inv_0.OUT.n18 mdls_inv_0.OUT.n17 122.928
+R20 mdls_inv_0.OUT.n3 mdls_inv_0.OUT.n2 109.715
+R21 mdls_inv_0.OUT.t9 mdls_inv_0.OUT.n16 98.2234
+R22 mdls_inv_0.OUT.n18 mdls_inv_0.OUT.t9 49.4098
+R23 mdls_inv_0.OUT.n6 mdls_inv_0.OUT.t7 45.8204
+R24 mdls_inv_0.OUT.n15 mdls_inv_0.OUT.n6 28.5785
+R25 mdls_inv_0.OUT.n17 mdls_inv_0.OUT.t4 28.5685
+R26 mdls_inv_0.OUT.t14 mdls_inv_0.OUT.n14 19.7637
+R27 mdls_inv_0.OUT.n16 mdls_inv_0.OUT.n15 5.198
+R28 mdls_inv_0.OUT mdls_inv_0.OUT.n18 5.00095
+R29 mdls_inv_0.OUT.n12 mdls_inv_0.OUT.n7 4.13208
+R30 mdls_inv_0.OUT.n4 mdls_inv_0.OUT.t2 3.16453
+R31 mdls_inv_0.OUT mdls_inv_0.OUT.n5 1.45868
+R32 mdls_inv_0.OUT mdls_inv_0.OUT.n4 1.36143
+R33 mdls_inv_0.OUT.n10 mdls_inv_0.OUT.n9 0.835457
+R34 mdls_inv_0.OUT.n1 mdls_inv_0.OUT.n8 0.813812
+R35 mdls_inv_0.OUT.n1 mdls_inv_0.OUT.n0 0.810242
+R36 mdls_inv_0.OUT.n13 mdls_inv_0.OUT.n12 0.607643
+R37 mdls_inv_1.IN mdls_inv_0.OUT.n7 0.454134
+R38 mdls_inv_0.OUT.n12 mdls_inv_0.OUT.n11 0.43198
+R39 mdls_inv_0.OUT.n14 mdls_inv_1.IN 0.339159
+R40 mdls_inv_0.OUT.n11 mdls_inv_0.OUT.n1 0.320167
+R41 mdls_inv_0.OUT.n13 mdls_inv_0.OUT.n0 0.21421
+R42 a_1326_n5292.n1 a_1326_n5292.t2 260.2
+R43 a_1326_n5292.n0 a_1326_n5292.t0 252.136
+R44 a_1326_n5292.n4 a_1326_n5292.t6 251.333
+R45 a_1326_n5292.n2 a_1326_n5292.n0 164.748
+R46 a_1326_n5292.t4 a_1326_n5292.n4 157.893
+R47 a_1326_n5292.n3 a_1326_n5292.t5 155.667
+R48 a_1326_n5292.n1 a_1326_n5292.t1 149.827
+R49 a_1326_n5292.n3 a_1326_n5292.n2 72.9605
+R50 a_1326_n5292.n2 a_1326_n5292.n1 9.14336
+R51 a_1326_n5292.n4 a_1326_n5292.n3 8.74717
+R52 a_1326_n5292.n0 a_1326_n5292.t3 3.16453
+R53 mdls_inv_8.IN.n19 mdls_inv_8.IN.t2 265.382
+R54 mdls_inv_8.IN.n21 mdls_inv_8.IN.n20 262.217
+R55 mdls_inv_8.IN.n6 mdls_inv_8.IN.t11 183.099
+R56 mdls_inv_8.IN.n5 mdls_inv_8.IN.t7 183.099
+R57 mdls_inv_8.IN.t7 mdls_inv_8.IN.n4 183.099
+R58 mdls_inv_8.IN.n0 mdls_inv_8.IN.t15 182.653
+R59 mdls_inv_8.IN.t11 mdls_inv_8.IN.n3 182.297
+R60 mdls_inv_8.IN.n0 mdls_inv_8.IN.t10 182.288
+R61 mdls_inv_8.IN.n7 mdls_inv_8.IN.t8 182.285
+R62 mdls_inv_8.IN.n5 mdls_inv_8.IN.t6 182.263
+R63 mdls_inv_8.IN.t8 mdls_inv_8.IN.n6 182.263
+R64 mdls_inv_8.IN.t6 mdls_inv_8.IN.n4 182.263
+R65 mdls_inv_8.IN.n20 mdls_inv_8.IN.t1 155.667
+R66 mdls_inv_8.IN.n19 mdls_inv_8.IN.t3 155.667
+R67 mdls_inv_8.IN.t13 mdls_inv_8.IN.n2 146.282
+R68 mdls_inv_8.IN.n12 mdls_inv_8.IN.t5 145.889
+R69 mdls_inv_8.IN.t5 mdls_inv_8.IN.n11 145.857
+R70 mdls_inv_8.IN.n9 mdls_inv_8.IN.t13 145.851
+R71 mdls_inv_8.IN.n14 mdls_inv_8.IN.t12 135.911
+R72 mdls_inv_8.IN.n17 mdls_inv_8.IN.n16 122.928
+R73 mdls_inv_8.IN.n20 mdls_inv_8.IN.n19 109.715
+R74 mdls_inv_8.IN.t9 mdls_inv_8.IN.n15 98.2234
+R75 mdls_inv_8.IN.n17 mdls_inv_8.IN.t9 49.4098
+R76 mdls_inv_8.IN.n1 mdls_inv_8.IN.t14 45.8204
+R77 mdls_inv_8.IN.n14 mdls_inv_8.IN.n1 28.5785
+R78 mdls_inv_8.IN.n16 mdls_inv_8.IN.t4 28.5685
+R79 mdls_inv_8.IN.t12 mdls_inv_8.IN.n13 19.7637
+R80 mdls_inv_8.IN.n18 mdls_inv_8.IN.n17 5.00095
+R81 mdls_inv_8.IN.n10 mdls_inv_8.IN.n2 4.13208
+R82 mdls_inv_8.IN.n21 mdls_inv_8.IN.t0 3.16453
+R83 mdls_inv_8.IN.n15 mdls_inv_8.IN.n14 2.84116
+R84 mdls_inv_8.IN.n18 mdls_inv_8.IN.n0 1.3453
+R85 mdls_inv_1.OUT mdls_inv_8.IN.n21 1.29092
+R86 mdls_inv_8.IN.n6 mdls_inv_8.IN.n5 0.835457
+R87 mdls_inv_8.IN.n8 mdls_inv_8.IN.n4 0.813812
+R88 mdls_inv_8.IN.n7 mdls_inv_8.IN.n3 0.810242
+R89 mdls_inv_8.IN.n11 mdls_inv_8.IN.n10 0.607643
+R90 mdls_inv_8.IN.n10 mdls_inv_8.IN.n9 0.43198
+R91 mdls_inv_8.IN.n13 mdls_inv_8.IN 0.339159
+R92 mdls_inv_8.IN.n12 mdls_inv_8.IN.n2 0.333833
+R93 mdls_inv_8.IN.n9 mdls_inv_8.IN.n8 0.21421
+R94 mdls_inv_8.IN.n11 mdls_inv_8.IN.n3 0.21421
+R95 mdls_inv_1.OUT mdls_inv_8.IN.n18 0.184521
+R96 mdls_inv_8.IN mdls_inv_8.IN.n12 0.120801
+R97 mdls_inv_8.IN.n8 mdls_inv_8.IN.n7 0.106457
+R98 mdls_inv_6.OUT.n17 mdls_inv_6.OUT.t3 265.382
+R99 mdls_inv_6.OUT.n19 mdls_inv_6.OUT.n18 262.217
+R100 mdls_inv_6.OUT.n7 mdls_inv_6.OUT.t11 183.099
+R101 mdls_inv_6.OUT.n6 mdls_inv_6.OUT.t7 183.099
+R102 mdls_inv_6.OUT.t7 mdls_inv_6.OUT.n5 183.099
+R103 mdls_inv_6.OUT.n2 mdls_inv_6.OUT.t10 182.653
+R104 mdls_inv_6.OUT.t11 mdls_inv_6.OUT.n0 182.297
+R105 mdls_inv_6.OUT.n2 mdls_inv_6.OUT.t13 182.288
+R106 mdls_inv_6.OUT.n1 mdls_inv_6.OUT.t5 182.285
+R107 mdls_inv_6.OUT.n6 mdls_inv_6.OUT.t8 182.263
+R108 mdls_inv_6.OUT.t5 mdls_inv_6.OUT.n7 182.263
+R109 mdls_inv_6.OUT.t8 mdls_inv_6.OUT.n5 182.263
+R110 mdls_inv_6.OUT.n18 mdls_inv_6.OUT.t1 155.667
+R111 mdls_inv_6.OUT.n17 mdls_inv_6.OUT.t4 155.667
+R112 mdls_inv_6.OUT.t9 mdls_inv_6.OUT.n4 146.282
+R113 mdls_inv_4.IN mdls_inv_6.OUT.t15 145.889
+R114 mdls_inv_6.OUT.t15 mdls_inv_6.OUT.n10 145.857
+R115 mdls_inv_6.OUT.n8 mdls_inv_6.OUT.t9 145.851
+R116 mdls_inv_6.OUT.n12 mdls_inv_6.OUT.t14 135.911
+R117 mdls_inv_6.OUT.n15 mdls_inv_6.OUT.n14 122.928
+R118 mdls_inv_6.OUT.n18 mdls_inv_6.OUT.n17 109.715
+R119 mdls_inv_6.OUT.t6 mdls_inv_6.OUT.n13 98.2234
+R120 mdls_inv_6.OUT.n15 mdls_inv_6.OUT.t6 49.4098
+R121 mdls_inv_6.OUT.n3 mdls_inv_6.OUT.t12 45.8204
+R122 mdls_inv_6.OUT.n12 mdls_inv_6.OUT.n3 28.5785
+R123 mdls_inv_6.OUT.n14 mdls_inv_6.OUT.t2 28.5685
+R124 mdls_inv_6.OUT.t14 mdls_inv_6.OUT.n11 19.7637
+R125 mdls_inv_6.OUT.n16 mdls_inv_6.OUT.n15 5.00095
+R126 mdls_inv_6.OUT.n9 mdls_inv_6.OUT.n4 4.13208
+R127 mdls_inv_6.OUT.n19 mdls_inv_6.OUT.t0 3.16453
+R128 mdls_inv_6.OUT.n13 mdls_inv_6.OUT.n12 2.83669
+R129 mdls_inv_6.OUT.n16 mdls_inv_6.OUT.n2 1.3453
+R130 mdls_inv_6.OUT mdls_inv_6.OUT.n19 1.29092
+R131 mdls_inv_6.OUT.n7 mdls_inv_6.OUT.n6 0.835457
+R132 mdls_inv_6.OUT.n1 mdls_inv_6.OUT.n5 0.813812
+R133 mdls_inv_6.OUT.n1 mdls_inv_6.OUT.n0 0.810242
+R134 mdls_inv_6.OUT.n10 mdls_inv_6.OUT.n9 0.607643
+R135 mdls_inv_4.IN mdls_inv_6.OUT.n4 0.454134
+R136 mdls_inv_6.OUT.n9 mdls_inv_6.OUT.n8 0.43198
+R137 mdls_inv_6.OUT.n11 mdls_inv_4.IN 0.339159
+R138 mdls_inv_6.OUT.n8 mdls_inv_6.OUT.n1 0.320167
+R139 mdls_inv_6.OUT.n10 mdls_inv_6.OUT.n0 0.21421
+R140 mdls_inv_6.OUT mdls_inv_6.OUT.n16 0.184521
+R141 a_1326_n294.n1 a_1326_n294.t4 260.2
+R142 a_1326_n294.n0 a_1326_n294.t6 252.136
+R143 a_1326_n294.n3 a_1326_n294.t2 251.333
+R144 a_1326_n294.n2 a_1326_n294.n0 164.748
+R145 a_1326_n294.n3 a_1326_n294.t0 157.893
+R146 a_1326_n294.t5 a_1326_n294.n4 155.667
+R147 a_1326_n294.n1 a_1326_n294.t3 149.827
+R148 a_1326_n294.n4 a_1326_n294.n2 72.9605
+R149 a_1326_n294.n2 a_1326_n294.n1 9.14336
+R150 a_1326_n294.n4 a_1326_n294.n3 8.74717
+R151 a_1326_n294.n0 a_1326_n294.t1 3.16453
+R152 a_1326_1372.n2 a_1326_1372.t1 260.2
+R153 a_1326_1372.n4 a_1326_1372.t0 252.136
+R154 a_1326_1372.n0 a_1326_1372.t6 251.333
+R155 a_1326_1372.n4 a_1326_1372.n3 164.748
+R156 a_1326_1372.n0 a_1326_1372.t2 157.893
+R157 a_1326_1372.n1 a_1326_1372.t4 155.667
+R158 a_1326_1372.n2 a_1326_1372.t5 149.827
+R159 a_1326_1372.n3 a_1326_1372.n1 72.9605
+R160 a_1326_1372.n3 a_1326_1372.n2 9.14336
+R161 a_1326_1372.n1 a_1326_1372.n0 8.74717
+R162 a_1326_1372.t3 a_1326_1372.n4 3.16453
+R163 a_5150_n2515.t5 a_5150_n2515.n4 260.2
+R164 a_5150_n2515.n2 a_5150_n2515.t0 252.136
+R165 a_5150_n2515.n0 a_5150_n2515.t3 251.333
+R166 a_5150_n2515.n3 a_5150_n2515.n2 164.748
+R167 a_5150_n2515.n0 a_5150_n2515.t2 157.893
+R168 a_5150_n2515.n1 a_5150_n2515.t4 155.667
+R169 a_5150_n2515.n4 a_5150_n2515.t6 149.827
+R170 a_5150_n2515.n3 a_5150_n2515.n1 72.9605
+R171 a_5150_n2515.n4 a_5150_n2515.n3 9.14336
+R172 a_5150_n2515.n1 a_5150_n2515.n0 8.74717
+R173 a_5150_n2515.n2 a_5150_n2515.t1 3.16453
+R174 a_5150_n4181.n4 a_5150_n4181.t4 260.2
+R175 a_5150_n4181.n2 a_5150_n4181.t6 252.136
+R176 a_5150_n4181.n0 a_5150_n4181.t2 251.333
+R177 a_5150_n4181.n3 a_5150_n4181.n2 164.748
+R178 a_5150_n4181.n0 a_5150_n4181.t0 157.893
+R179 a_5150_n4181.n1 a_5150_n4181.t3 155.667
+R180 a_5150_n4181.t5 a_5150_n4181.n4 149.827
+R181 a_5150_n4181.n3 a_5150_n4181.n1 72.9605
+R182 a_5150_n4181.n4 a_5150_n4181.n3 9.14336
+R183 a_5150_n4181.n1 a_5150_n4181.n0 8.74717
+R184 a_5150_n4181.n2 a_5150_n4181.t1 3.16453
+R185 a_5150_n849.n0 a_5150_n849.t6 260.2
+R186 a_5150_n849.n1 a_5150_n849.t0 252.136
+R187 a_5150_n849.t5 a_5150_n849.n4 251.333
+R188 a_5150_n849.n2 a_5150_n849.n1 164.748
+R189 a_5150_n849.n4 a_5150_n849.t1 157.893
+R190 a_5150_n849.n3 a_5150_n849.t4 155.667
+R191 a_5150_n849.n0 a_5150_n849.t3 149.827
+R192 a_5150_n849.n3 a_5150_n849.n2 72.9605
+R193 a_5150_n849.n2 a_5150_n849.n0 9.14336
+R194 a_5150_n849.n4 a_5150_n849.n3 8.74717
+R195 a_5150_n849.n1 a_5150_n849.t2 3.16453
+R196 mdls_inv_3.OUT.n5 mdls_inv_3.OUT.t3 265.382
+R197 mdls_inv_3.OUT.n7 mdls_inv_3.OUT.n6 262.217
+R198 mdls_inv_3.OUT.n0 mdls_inv_3.OUT.t5 182.653
+R199 mdls_inv_3.OUT.n0 mdls_inv_3.OUT.t7 182.288
+R200 mdls_inv_3.OUT.n6 mdls_inv_3.OUT.t0 155.667
+R201 mdls_inv_3.OUT.n5 mdls_inv_3.OUT.t2 155.667
+R202 mdls_inv_3.OUT.n3 mdls_inv_3.OUT.n1 122.928
+R203 mdls_inv_3.OUT.n6 mdls_inv_3.OUT.n5 109.715
+R204 mdls_inv_3.OUT.t6 mdls_inv_3.OUT.n2 98.2234
+R205 mdls_inv_3.OUT.n3 mdls_inv_3.OUT.t6 49.4098
+R206 mdls_inv_3.OUT.n1 mdls_inv_3.OUT.t4 28.5685
+R207 mdls_inv_3.OUT.n4 mdls_inv_3.OUT.n3 5.00095
+R208 mdls_inv_3.OUT.n7 mdls_inv_3.OUT.t1 3.16453
+R209 mdls_inv_3.OUT.n4 mdls_inv_3.OUT.n0 1.3453
+R210 mdls_inv_3.OUT mdls_inv_3.OUT.n7 1.29092
+R211 mdls_inv_3.OUT.n2 OUT 0.973017
+R212 mdls_inv_3.OUT mdls_inv_3.OUT.n4 0.184521
+R213 mdls_inv_6.IN.n17 mdls_inv_6.IN.t4 265.382
+R214 mdls_inv_6.IN.n19 mdls_inv_6.IN.n18 262.217
+R215 mdls_inv_6.IN.n7 mdls_inv_6.IN.t7 183.099
+R216 mdls_inv_6.IN.n6 mdls_inv_6.IN.t15 183.099
+R217 mdls_inv_6.IN.t15 mdls_inv_6.IN.n5 183.099
+R218 mdls_inv_6.IN.n2 mdls_inv_6.IN.t13 182.653
+R219 mdls_inv_6.IN.t7 mdls_inv_6.IN.n0 182.297
+R220 mdls_inv_6.IN.n2 mdls_inv_6.IN.t11 182.288
+R221 mdls_inv_6.IN.n1 mdls_inv_6.IN.t8 182.285
+R222 mdls_inv_6.IN.n6 mdls_inv_6.IN.t9 182.263
+R223 mdls_inv_6.IN.t8 mdls_inv_6.IN.n7 182.263
+R224 mdls_inv_6.IN.t9 mdls_inv_6.IN.n5 182.263
+R225 mdls_inv_6.IN.n18 mdls_inv_6.IN.t2 155.667
+R226 mdls_inv_6.IN.n17 mdls_inv_6.IN.t0 155.667
+R227 mdls_inv_6.IN.t10 mdls_inv_6.IN.n4 146.282
+R228 mdls_inv_6.IN mdls_inv_6.IN.t14 145.889
+R229 mdls_inv_6.IN.t14 mdls_inv_6.IN.n10 145.857
+R230 mdls_inv_6.IN.n8 mdls_inv_6.IN.t10 145.851
+R231 mdls_inv_6.IN.n12 mdls_inv_6.IN.t6 135.911
+R232 mdls_inv_6.IN.n15 mdls_inv_6.IN.n14 122.928
+R233 mdls_inv_6.IN.n18 mdls_inv_6.IN.n17 109.715
+R234 mdls_inv_6.IN.t5 mdls_inv_6.IN.n13 98.2234
+R235 mdls_inv_6.IN.n15 mdls_inv_6.IN.t5 49.4098
+R236 mdls_inv_6.IN.n3 mdls_inv_6.IN.t12 45.8204
+R237 mdls_inv_6.IN.n12 mdls_inv_6.IN.n3 28.5785
+R238 mdls_inv_6.IN.n14 mdls_inv_6.IN.t3 28.5685
+R239 mdls_inv_6.IN.t6 mdls_inv_6.IN.n11 19.7637
+R240 mdls_inv_6.IN.n16 mdls_inv_6.IN.n15 5.00095
+R241 mdls_inv_6.IN.n9 mdls_inv_6.IN.n4 4.13208
+R242 mdls_inv_6.IN.n19 mdls_inv_6.IN.t1 3.16453
+R243 mdls_inv_6.IN.n16 mdls_inv_6.IN.n2 1.3453
+R244 mdls_inv_8.OUT mdls_inv_6.IN.n19 1.29092
+R245 mdls_inv_6.IN.n13 mdls_inv_6.IN.n12 1.06388
+R246 mdls_inv_6.IN.n7 mdls_inv_6.IN.n6 0.835457
+R247 mdls_inv_6.IN.n1 mdls_inv_6.IN.n5 0.813812
+R248 mdls_inv_6.IN.n1 mdls_inv_6.IN.n0 0.810242
+R249 mdls_inv_6.IN.n10 mdls_inv_6.IN.n9 0.607643
+R250 mdls_inv_6.IN mdls_inv_6.IN.n4 0.454134
+R251 mdls_inv_6.IN.n9 mdls_inv_6.IN.n8 0.43198
+R252 mdls_inv_6.IN.n11 mdls_inv_6.IN 0.339159
+R253 mdls_inv_6.IN.n8 mdls_inv_6.IN.n1 0.320167
+R254 mdls_inv_6.IN.n10 mdls_inv_6.IN.n0 0.21421
+R255 mdls_inv_8.OUT mdls_inv_6.IN.n16 0.184521
+R256 a_1326_n3626.t5 a_1326_n3626.n4 260.2
+R257 a_1326_n3626.n2 a_1326_n3626.t0 252.136
+R258 a_1326_n3626.n0 a_1326_n3626.t3 251.333
+R259 a_1326_n3626.n3 a_1326_n3626.n2 164.748
+R260 a_1326_n3626.n0 a_1326_n3626.t2 157.893
+R261 a_1326_n3626.n1 a_1326_n3626.t4 155.667
+R262 a_1326_n3626.n4 a_1326_n3626.t6 149.827
+R263 a_1326_n3626.n3 a_1326_n3626.n1 72.9605
+R264 a_1326_n3626.n4 a_1326_n3626.n3 9.14336
+R265 a_1326_n3626.n1 a_1326_n3626.n0 8.74717
+R266 a_1326_n3626.n2 a_1326_n3626.t1 3.16453
+R267 a_5150_817.n0 a_5150_817.t3 260.2
+R268 a_5150_817.n1 a_5150_817.t6 252.136
+R269 a_5150_817.n3 a_5150_817.t2 251.333
+R270 a_5150_817.n2 a_5150_817.n1 164.748
+R271 a_5150_817.n3 a_5150_817.t1 157.893
+R272 a_5150_817.t5 a_5150_817.n4 155.667
+R273 a_5150_817.n0 a_5150_817.t4 149.827
+R274 a_5150_817.n4 a_5150_817.n2 72.9605
+R275 a_5150_817.n2 a_5150_817.n0 9.14336
+R276 a_5150_817.n4 a_5150_817.n3 8.74717
+R277 a_5150_817.n1 a_5150_817.t0 3.16453
+R278 a_1326_n1960.n1 a_1326_n1960.t2 260.2
+R279 a_1326_n1960.n0 a_1326_n1960.t6 252.136
+R280 a_1326_n1960.t5 a_1326_n1960.n4 251.333
+R281 a_1326_n1960.n2 a_1326_n1960.n0 164.748
+R282 a_1326_n1960.n4 a_1326_n1960.t0 157.893
+R283 a_1326_n1960.n3 a_1326_n1960.t4 155.667
+R284 a_1326_n1960.n1 a_1326_n1960.t3 149.827
+R285 a_1326_n1960.n3 a_1326_n1960.n2 72.9605
+R286 a_1326_n1960.n2 a_1326_n1960.n1 9.14336
+R287 a_1326_n1960.n4 a_1326_n1960.n3 8.74717
+R288 a_1326_n1960.n0 a_1326_n1960.t1 3.16453
+R289 a_5150_2483.n0 a_5150_2483.t4 260.2
+R290 a_5150_2483.n1 a_5150_2483.t0 252.136
+R291 a_5150_2483.n3 a_5150_2483.t6 251.333
+R292 a_5150_2483.n2 a_5150_2483.n1 164.748
+R293 a_5150_2483.n3 a_5150_2483.t1 157.893
+R294 a_5150_2483.t5 a_5150_2483.n4 155.667
+R295 a_5150_2483.n0 a_5150_2483.t3 149.827
+R296 a_5150_2483.n4 a_5150_2483.n2 72.9605
+R297 a_5150_2483.n2 a_5150_2483.n0 9.14336
+R298 a_5150_2483.n4 a_5150_2483.n3 8.74717
+R299 a_5150_2483.n1 a_5150_2483.t2 3.16453
+C0 a_2802_2190# mdls_inv_3.OUT 1.07f
+C1 mdls_inv_0.OUT mdls_inv_7.OUT 0.112f
+C2 mdls_inv_6.IN mdls_inv_7.OUT 0.015f
+C3 mdls_inv_2.OUT a_5150_n1485# 1.09e-19
+C4 mdls_inv_7.OUT a_2802_n1142# 6.45e-19
+C5 mdls_inv_2.OUT mdls_inv_2.DD 4.61f
+C6 mdls_inv_2.OUT a_5150_1847# 1.22f
+C7 a_5150_181# mdls_inv_7.OUT 3.31e-19
+C8 mdls_inv_6.IN a_5150_n1485# 0.00179f
+C9 mdls_inv_9.OUT a_2802_n4474# 0.00194f
+C10 mdls_inv_9.OUT a_5150_n3151# 1.09f
+C11 a_5150_n3151# mdls_inv_2.DD 1.59f
+C12 a_2802_n4474# mdls_inv_2.DD 1.59f
+C13 mdls_inv_3.OUT mdls_inv_2.DD 2.83f
+C14 a_2802_n1142# a_5150_n1485# 0.0129f
+C15 mdls_inv_9.OUT mdls_inv_0.OUT 2.35f
+C16 mdls_inv_9.OUT mdls_inv_6.IN 0.109f
+C17 mdls_inv_0.OUT mdls_inv_2.DD 4.71f
+C18 mdls_inv_6.IN mdls_inv_2.DD 4.55f
+C19 mdls_inv_7.OUT a_5150_n1485# 1.22f
+C20 mdls_inv_2.DD a_2802_n1142# 1.59f
+C21 mdls_inv_9.OUT mdls_inv_7.OUT 2.12f
+C22 mdls_inv_2.DD mdls_inv_7.OUT 4.65f
+C23 a_2802_2190# mdls_inv_2.DD 1.59f
+C24 a_5150_n3151# a_2802_n2808# 0.0129f
+C25 a_5150_181# mdls_inv_2.DD 1.59f
+C26 a_2802_2190# a_5150_1847# 0.0129f
+C27 mdls_inv_0.OUT a_2802_n2808# 2.93e-21
+C28 a_2802_n2808# mdls_inv_6.IN 1.07f
+C29 mdls_inv_2.IN a_2802_524# 1.08f
+C30 mdls_inv_9.OUT a_5150_n1485# 6.99e-19
+C31 mdls_inv_2.IN mdls_inv_7.IN 0.211f
+C32 mdls_inv_2.DD a_5150_n1485# 1.59f
+C33 a_2802_n4474# mdls_inv_8.IN 1.07f
+C34 a_5150_n3151# mdls_inv_8.IN 0.00146f
+C35 mdls_inv_2.IN mdls_inv_6.OUT 1.47f
+C36 a_2802_n2808# mdls_inv_7.OUT 0.00155f
+C37 mdls_inv_0.OUT mdls_inv_8.IN 1.52f
+C38 mdls_inv_6.IN mdls_inv_8.IN 1.47f
+C39 mdls_inv_9.OUT mdls_inv_2.DD 4.59f
+C40 mdls_inv_7.IN a_2802_524# 0.00136f
+C41 mdls_inv_6.OUT a_2802_524# 0.829f
+C42 a_2802_n1142# mdls_inv_8.IN 1.5e-19
+C43 a_5150_1847# mdls_inv_2.DD 1.59f
+C44 mdls_inv_7.IN mdls_inv_6.OUT 0.0308f
+C45 mdls_inv_7.OUT mdls_inv_8.IN 0.179f
+C46 mdls_inv_2.IN mdls_inv_2.OUT 1.75f
+C47 mdls_inv_2.OUT a_2802_524# 0.00155f
+C48 mdls_inv_9.OUT a_2802_n2808# 0.00136f
+C49 mdls_inv_2.IN mdls_inv_3.OUT 1.45f
+C50 a_2802_n2808# mdls_inv_2.DD 1.59f
+C51 mdls_inv_2.OUT mdls_inv_7.IN 2.12f
+C52 mdls_inv_2.OUT mdls_inv_6.OUT 0.179f
+C53 a_5150_n3151# mdls_inv_7.IN 1.06e-19
+C54 a_2802_n4474# a_5150_n4817# 0.0129f
+C55 mdls_inv_6.IN a_2802_524# 3.18e-19
+C56 mdls_inv_9.OUT mdls_inv_8.IN 0.0308f
+C57 mdls_inv_6.IN mdls_inv_7.IN 0.191f
+C58 mdls_inv_2.DD mdls_inv_8.IN 4.57f
+C59 mdls_inv_0.OUT a_5150_n4817# 1.21f
+C60 mdls_inv_6.IN mdls_inv_6.OUT 1.46f
+C61 a_2802_n1142# mdls_inv_7.IN 0.00194f
+C62 a_2802_2190# mdls_inv_2.IN 0.664f
+C63 a_5150_181# mdls_inv_2.IN 1.06e-19
+C64 a_2802_n1142# mdls_inv_6.OUT 1.07f
+C65 mdls_inv_7.OUT mdls_inv_7.IN 2.1f
+C66 mdls_inv_7.OUT a_5150_n4817# 1.29e-19
+C67 a_5150_181# a_2802_524# 0.0129f
+C68 mdls_inv_7.OUT mdls_inv_6.OUT 0.105f
+C69 mdls_inv_2.OUT mdls_inv_3.OUT 0.106f
+C70 a_5150_181# mdls_inv_7.IN 1.09f
+C71 a_2802_2190# mdls_inv_6.OUT 1.37e-19
+C72 a_5150_181# mdls_inv_6.OUT 0.00146f
+C73 a_2802_n2808# mdls_inv_8.IN 0.827f
+C74 mdls_inv_0.OUT a_5150_n3151# 3.31e-19
+C75 a_2802_n4474# mdls_inv_0.OUT 0.607f
+C76 mdls_inv_2.IN mdls_inv_2.DD 6.23f
+C77 mdls_inv_7.IN a_5150_n1485# 0.664f
+C78 mdls_inv_2.IN a_5150_1847# 0.603f
+C79 mdls_inv_2.OUT mdls_inv_7.OUT 0.113f
+C80 mdls_inv_2.DD a_2802_524# 1.59f
+C81 a_2802_2190# mdls_inv_2.OUT 6.45e-19
+C82 mdls_inv_9.OUT mdls_inv_7.IN 0.134f
+C83 a_5150_181# mdls_inv_2.OUT 0.876f
+C84 mdls_inv_9.OUT a_5150_n4817# 0.669f
+C85 mdls_inv_6.IN a_2802_n1142# 0.664f
+C86 mdls_inv_2.DD mdls_inv_7.IN 4.62f
+C87 mdls_inv_2.DD a_5150_n4817# 1.59f
+C88 a_5150_n3151# mdls_inv_7.OUT 0.876f
+C89 mdls_inv_2.DD mdls_inv_6.OUT 4.57f
+C90 a_5150_1847# mdls_inv_7.IN 0.00215f
+C91 a_5150_n4817# mdls_inv_2.SS 0.41f
+C92 a_2802_n4474# mdls_inv_2.SS 0.41f
+C93 mdls_inv_0.OUT mdls_inv_2.SS 8.83f
+C94 a_5150_n3151# mdls_inv_2.SS 0.41f
+C95 mdls_inv_9.OUT mdls_inv_2.SS 8.37f
+C96 a_2802_n2808# mdls_inv_2.SS 0.41f
+C97 mdls_inv_8.IN mdls_inv_2.SS 8.26f
+C98 a_5150_n1485# mdls_inv_2.SS 0.41f
+C99 mdls_inv_7.OUT mdls_inv_2.SS 8.26f
+C100 a_2802_n1142# mdls_inv_2.SS 0.41f
+C101 mdls_inv_6.IN mdls_inv_2.SS 8.53f
+C102 a_5150_181# mdls_inv_2.SS 0.41f
+C103 mdls_inv_7.IN mdls_inv_2.SS 8.27f
+C104 a_2802_524# mdls_inv_2.SS 0.41f
+C105 mdls_inv_6.OUT mdls_inv_2.SS 8.23f
+C106 a_5150_1847# mdls_inv_2.SS 0.41f
+C107 mdls_inv_2.OUT mdls_inv_2.SS 8.56f
+C108 a_2802_2190# mdls_inv_2.SS 0.41f
+C109 mdls_inv_2.IN mdls_inv_2.SS 13.1f
+C110 mdls_inv_3.OUT mdls_inv_2.SS 3.68f
+C111 mdls_inv_2.DD mdls_inv_2.SS 47.8f
+C112 a_5150_2483.t4 mdls_inv_2.SS 1.01f
+C113 a_5150_2483.t3 mdls_inv_2.SS 0.946f
+C114 a_5150_2483.n0 mdls_inv_2.SS 0.234f
+C115 a_5150_2483.t0 mdls_inv_2.SS 0.451f
+C116 a_5150_2483.t2 mdls_inv_2.SS 0.0858f
+C117 a_5150_2483.n1 mdls_inv_2.SS 0.91f
+C118 a_5150_2483.n2 mdls_inv_2.SS 0.154f
+C119 a_5150_2483.t1 mdls_inv_2.SS 0.939f
+C120 a_5150_2483.t6 mdls_inv_2.SS 1.01f
+C121 a_5150_2483.n3 mdls_inv_2.SS 0.244f
+C122 a_5150_2483.n4 mdls_inv_2.SS 0.172f
+C123 a_5150_2483.t5 mdls_inv_2.SS 0.95f
+C124 a_1326_n1960.t0 mdls_inv_2.SS 0.952f
+C125 a_1326_n1960.t4 mdls_inv_2.SS 0.963f
+C126 a_1326_n1960.t6 mdls_inv_2.SS 0.458f
+C127 a_1326_n1960.t1 mdls_inv_2.SS 0.087f
+C128 a_1326_n1960.n0 mdls_inv_2.SS 0.923f
+C129 a_1326_n1960.t2 mdls_inv_2.SS 1.02f
+C130 a_1326_n1960.t3 mdls_inv_2.SS 0.959f
+C131 a_1326_n1960.n1 mdls_inv_2.SS 0.238f
+C132 a_1326_n1960.n2 mdls_inv_2.SS 0.156f
+C133 a_1326_n1960.n3 mdls_inv_2.SS 0.175f
+C134 a_1326_n1960.n4 mdls_inv_2.SS 0.247f
+C135 a_1326_n1960.t5 mdls_inv_2.SS 1.02f
+C136 a_5150_817.t3 mdls_inv_2.SS 1.01f
+C137 a_5150_817.t4 mdls_inv_2.SS 0.946f
+C138 a_5150_817.n0 mdls_inv_2.SS 0.234f
+C139 a_5150_817.t6 mdls_inv_2.SS 0.451f
+C140 a_5150_817.t0 mdls_inv_2.SS 0.0858f
+C141 a_5150_817.n1 mdls_inv_2.SS 0.91f
+C142 a_5150_817.n2 mdls_inv_2.SS 0.154f
+C143 a_5150_817.t1 mdls_inv_2.SS 0.939f
+C144 a_5150_817.t2 mdls_inv_2.SS 1.01f
+C145 a_5150_817.n3 mdls_inv_2.SS 0.244f
+C146 a_5150_817.n4 mdls_inv_2.SS 0.172f
+C147 a_5150_817.t5 mdls_inv_2.SS 0.95f
+C148 a_1326_n3626.t4 mdls_inv_2.SS 0.95f
+C149 a_1326_n3626.t2 mdls_inv_2.SS 0.939f
+C150 a_1326_n3626.t3 mdls_inv_2.SS 1.01f
+C151 a_1326_n3626.n0 mdls_inv_2.SS 0.244f
+C152 a_1326_n3626.n1 mdls_inv_2.SS 0.172f
+C153 a_1326_n3626.t0 mdls_inv_2.SS 0.451f
+C154 a_1326_n3626.t1 mdls_inv_2.SS 0.0858f
+C155 a_1326_n3626.n2 mdls_inv_2.SS 0.91f
+C156 a_1326_n3626.n3 mdls_inv_2.SS 0.154f
+C157 a_1326_n3626.t6 mdls_inv_2.SS 0.946f
+C158 a_1326_n3626.n4 mdls_inv_2.SS 0.234f
+C159 a_1326_n3626.t5 mdls_inv_2.SS 1.01f
+C160 mdls_inv_6.IN.n0 mdls_inv_2.SS 0.249f
+C161 mdls_inv_6.IN.n1 mdls_inv_2.SS 0.261f
+C162 mdls_inv_6.IN.t13 mdls_inv_2.SS 0.151f
+C163 mdls_inv_6.IN.t11 mdls_inv_2.SS 0.151f
+C164 mdls_inv_6.IN.n2 mdls_inv_2.SS 0.441f
+C165 mdls_inv_6.IN.t12 mdls_inv_2.SS 0.194f
+C166 mdls_inv_6.IN.n3 mdls_inv_2.SS 0.0758f
+C167 mdls_inv_6.IN.n4 mdls_inv_2.SS 0.374f
+C168 mdls_inv_6.IN.n5 mdls_inv_2.SS 0.484f
+C169 mdls_inv_6.IN.t15 mdls_inv_2.SS 0.3f
+C170 mdls_inv_6.IN.t9 mdls_inv_2.SS 0.298f
+C171 mdls_inv_6.IN.n6 mdls_inv_2.SS 0.485f
+C172 mdls_inv_6.IN.t7 mdls_inv_2.SS 0.299f
+C173 mdls_inv_6.IN.n7 mdls_inv_2.SS 0.485f
+C174 mdls_inv_6.IN.t8 mdls_inv_2.SS 0.298f
+C175 mdls_inv_6.IN.t10 mdls_inv_2.SS 0.373f
+C176 mdls_inv_6.IN.n8 mdls_inv_2.SS 0.293f
+C177 mdls_inv_6.IN.n9 mdls_inv_2.SS 0.0975f
+C178 mdls_inv_6.IN.n10 mdls_inv_2.SS 0.292f
+C179 mdls_inv_6.IN.t14 mdls_inv_2.SS 0.373f
+C180 mdls_inv_6.IN.n11 mdls_inv_2.SS 0.279f
+C181 mdls_inv_6.IN.t6 mdls_inv_2.SS 0.402f
+C182 mdls_inv_6.IN.n12 mdls_inv_2.SS 0.636f
+C183 mdls_inv_6.IN.n13 mdls_inv_2.SS 0.594f
+C184 mdls_inv_6.IN.t5 mdls_inv_2.SS 0.138f
+C185 mdls_inv_6.IN.t3 mdls_inv_2.SS 0.00893f
+C186 mdls_inv_6.IN.n14 mdls_inv_2.SS 0.103f
+C187 mdls_inv_6.IN.n15 mdls_inv_2.SS 0.263f
+C188 mdls_inv_6.IN.n16 mdls_inv_2.SS 0.373f
+C189 mdls_inv_6.IN.t2 mdls_inv_2.SS 0.544f
+C190 mdls_inv_6.IN.t4 mdls_inv_2.SS 0.58f
+C191 mdls_inv_6.IN.t0 mdls_inv_2.SS 0.544f
+C192 mdls_inv_6.IN.n17 mdls_inv_2.SS 0.162f
+C193 mdls_inv_6.IN.n18 mdls_inv_2.SS 0.155f
+C194 mdls_inv_6.IN.t1 mdls_inv_2.SS 0.0491f
+C195 mdls_inv_6.IN.n19 mdls_inv_2.SS 0.409f
+C196 mdls_inv_8.OUT mdls_inv_2.SS 0.0818f
+C197 mdls_inv_3.OUT.t5 mdls_inv_2.SS 0.231f
+C198 mdls_inv_3.OUT.t7 mdls_inv_2.SS 0.23f
+C199 mdls_inv_3.OUT.n0 mdls_inv_2.SS 0.675f
+C200 mdls_inv_3.OUT.t4 mdls_inv_2.SS 0.0136f
+C201 mdls_inv_3.OUT.n1 mdls_inv_2.SS 0.157f
+C202 OUT mdls_inv_2.SS 0.516f
+C203 mdls_inv_3.OUT.n2 mdls_inv_2.SS 0.637f
+C204 mdls_inv_3.OUT.t6 mdls_inv_2.SS 0.212f
+C205 mdls_inv_3.OUT.n3 mdls_inv_2.SS 0.402f
+C206 mdls_inv_3.OUT.n4 mdls_inv_2.SS 0.57f
+C207 mdls_inv_3.OUT.t1 mdls_inv_2.SS 0.075f
+C208 mdls_inv_3.OUT.t0 mdls_inv_2.SS 0.83f
+C209 mdls_inv_3.OUT.t2 mdls_inv_2.SS 0.83f
+C210 mdls_inv_3.OUT.t3 mdls_inv_2.SS 0.887f
+C211 mdls_inv_3.OUT.n5 mdls_inv_2.SS 0.247f
+C212 mdls_inv_3.OUT.n6 mdls_inv_2.SS 0.237f
+C213 mdls_inv_3.OUT.n7 mdls_inv_2.SS 0.624f
+C214 a_5150_n849.t1 mdls_inv_2.SS 0.939f
+C215 a_5150_n849.t4 mdls_inv_2.SS 0.95f
+C216 a_5150_n849.t6 mdls_inv_2.SS 1.01f
+C217 a_5150_n849.t3 mdls_inv_2.SS 0.946f
+C218 a_5150_n849.n0 mdls_inv_2.SS 0.234f
+C219 a_5150_n849.t0 mdls_inv_2.SS 0.451f
+C220 a_5150_n849.t2 mdls_inv_2.SS 0.0858f
+C221 a_5150_n849.n1 mdls_inv_2.SS 0.91f
+C222 a_5150_n849.n2 mdls_inv_2.SS 0.154f
+C223 a_5150_n849.n3 mdls_inv_2.SS 0.172f
+C224 a_5150_n849.n4 mdls_inv_2.SS 0.244f
+C225 a_5150_n849.t5 mdls_inv_2.SS 1.01f
+C226 a_5150_n4181.t4 mdls_inv_2.SS 1.01f
+C227 a_5150_n4181.t3 mdls_inv_2.SS 0.95f
+C228 a_5150_n4181.t0 mdls_inv_2.SS 0.939f
+C229 a_5150_n4181.t2 mdls_inv_2.SS 1.01f
+C230 a_5150_n4181.n0 mdls_inv_2.SS 0.244f
+C231 a_5150_n4181.n1 mdls_inv_2.SS 0.172f
+C232 a_5150_n4181.t6 mdls_inv_2.SS 0.451f
+C233 a_5150_n4181.t1 mdls_inv_2.SS 0.0858f
+C234 a_5150_n4181.n2 mdls_inv_2.SS 0.91f
+C235 a_5150_n4181.n3 mdls_inv_2.SS 0.154f
+C236 a_5150_n4181.n4 mdls_inv_2.SS 0.234f
+C237 a_5150_n4181.t5 mdls_inv_2.SS 0.946f
+C238 a_5150_n2515.t6 mdls_inv_2.SS 0.946f
+C239 a_5150_n2515.t4 mdls_inv_2.SS 0.95f
+C240 a_5150_n2515.t2 mdls_inv_2.SS 0.939f
+C241 a_5150_n2515.t3 mdls_inv_2.SS 1.01f
+C242 a_5150_n2515.n0 mdls_inv_2.SS 0.244f
+C243 a_5150_n2515.n1 mdls_inv_2.SS 0.172f
+C244 a_5150_n2515.t0 mdls_inv_2.SS 0.451f
+C245 a_5150_n2515.t1 mdls_inv_2.SS 0.0858f
+C246 a_5150_n2515.n2 mdls_inv_2.SS 0.91f
+C247 a_5150_n2515.n3 mdls_inv_2.SS 0.154f
+C248 a_5150_n2515.n4 mdls_inv_2.SS 0.234f
+C249 a_5150_n2515.t5 mdls_inv_2.SS 1.01f
+C250 a_1326_1372.t0 mdls_inv_2.SS 0.458f
+C251 a_1326_1372.t4 mdls_inv_2.SS 0.963f
+C252 a_1326_1372.t2 mdls_inv_2.SS 0.952f
+C253 a_1326_1372.t6 mdls_inv_2.SS 1.02f
+C254 a_1326_1372.n0 mdls_inv_2.SS 0.247f
+C255 a_1326_1372.n1 mdls_inv_2.SS 0.175f
+C256 a_1326_1372.t1 mdls_inv_2.SS 1.02f
+C257 a_1326_1372.t5 mdls_inv_2.SS 0.959f
+C258 a_1326_1372.n2 mdls_inv_2.SS 0.238f
+C259 a_1326_1372.n3 mdls_inv_2.SS 0.156f
+C260 a_1326_1372.n4 mdls_inv_2.SS 0.923f
+C261 a_1326_1372.t3 mdls_inv_2.SS 0.087f
+C262 a_1326_n294.t6 mdls_inv_2.SS 0.451f
+C263 a_1326_n294.t1 mdls_inv_2.SS 0.0858f
+C264 a_1326_n294.n0 mdls_inv_2.SS 0.91f
+C265 a_1326_n294.t4 mdls_inv_2.SS 1.01f
+C266 a_1326_n294.t3 mdls_inv_2.SS 0.946f
+C267 a_1326_n294.n1 mdls_inv_2.SS 0.234f
+C268 a_1326_n294.n2 mdls_inv_2.SS 0.154f
+C269 a_1326_n294.t0 mdls_inv_2.SS 0.939f
+C270 a_1326_n294.t2 mdls_inv_2.SS 1.01f
+C271 a_1326_n294.n3 mdls_inv_2.SS 0.244f
+C272 a_1326_n294.n4 mdls_inv_2.SS 0.172f
+C273 a_1326_n294.t5 mdls_inv_2.SS 0.95f
+C274 mdls_inv_4.IN mdls_inv_2.SS 0.407f
+C275 mdls_inv_6.OUT.n0 mdls_inv_2.SS 0.251f
+C276 mdls_inv_6.OUT.n1 mdls_inv_2.SS 0.263f
+C277 mdls_inv_6.OUT.t10 mdls_inv_2.SS 0.153f
+C278 mdls_inv_6.OUT.t13 mdls_inv_2.SS 0.152f
+C279 mdls_inv_6.OUT.n2 mdls_inv_2.SS 0.445f
+C280 mdls_inv_6.OUT.t12 mdls_inv_2.SS 0.196f
+C281 mdls_inv_6.OUT.n3 mdls_inv_2.SS 0.0764f
+C282 mdls_inv_6.OUT.n4 mdls_inv_2.SS 0.377f
+C283 mdls_inv_6.OUT.n5 mdls_inv_2.SS 0.488f
+C284 mdls_inv_6.OUT.t7 mdls_inv_2.SS 0.302f
+C285 mdls_inv_6.OUT.t8 mdls_inv_2.SS 0.3f
+C286 mdls_inv_6.OUT.n6 mdls_inv_2.SS 0.489f
+C287 mdls_inv_6.OUT.t11 mdls_inv_2.SS 0.301f
+C288 mdls_inv_6.OUT.n7 mdls_inv_2.SS 0.489f
+C289 mdls_inv_6.OUT.t5 mdls_inv_2.SS 0.3f
+C290 mdls_inv_6.OUT.t9 mdls_inv_2.SS 0.376f
+C291 mdls_inv_6.OUT.n8 mdls_inv_2.SS 0.296f
+C292 mdls_inv_6.OUT.n9 mdls_inv_2.SS 0.0983f
+C293 mdls_inv_6.OUT.n10 mdls_inv_2.SS 0.294f
+C294 mdls_inv_6.OUT.t15 mdls_inv_2.SS 0.376f
+C295 mdls_inv_6.OUT.n11 mdls_inv_2.SS 0.282f
+C296 mdls_inv_6.OUT.t14 mdls_inv_2.SS 0.406f
+C297 mdls_inv_6.OUT.n12 mdls_inv_2.SS 0.64f
+C298 mdls_inv_6.OUT.n13 mdls_inv_2.SS 0.605f
+C299 mdls_inv_6.OUT.t6 mdls_inv_2.SS 0.14f
+C300 mdls_inv_6.OUT.t2 mdls_inv_2.SS 0.009f
+C301 mdls_inv_6.OUT.n14 mdls_inv_2.SS 0.103f
+C302 mdls_inv_6.OUT.n15 mdls_inv_2.SS 0.265f
+C303 mdls_inv_6.OUT.n16 mdls_inv_2.SS 0.376f
+C304 mdls_inv_6.OUT.t1 mdls_inv_2.SS 0.548f
+C305 mdls_inv_6.OUT.t4 mdls_inv_2.SS 0.548f
+C306 mdls_inv_6.OUT.t3 mdls_inv_2.SS 0.585f
+C307 mdls_inv_6.OUT.n17 mdls_inv_2.SS 0.163f
+C308 mdls_inv_6.OUT.n18 mdls_inv_2.SS 0.157f
+C309 mdls_inv_6.OUT.t0 mdls_inv_2.SS 0.0495f
+C310 mdls_inv_6.OUT.n19 mdls_inv_2.SS 0.412f
+C311 mdls_inv_8.IN.t15 mdls_inv_2.SS 0.153f
+C312 mdls_inv_8.IN.t10 mdls_inv_2.SS 0.152f
+C313 mdls_inv_8.IN.n0 mdls_inv_2.SS 0.445f
+C314 mdls_inv_8.IN.t14 mdls_inv_2.SS 0.196f
+C315 mdls_inv_8.IN.n1 mdls_inv_2.SS 0.0764f
+C316 mdls_inv_8.IN.n2 mdls_inv_2.SS 0.377f
+C317 mdls_inv_8.IN.n3 mdls_inv_2.SS 0.251f
+C318 mdls_inv_8.IN.n4 mdls_inv_2.SS 0.488f
+C319 mdls_inv_8.IN.t7 mdls_inv_2.SS 0.302f
+C320 mdls_inv_8.IN.t6 mdls_inv_2.SS 0.3f
+C321 mdls_inv_8.IN.n5 mdls_inv_2.SS 0.489f
+C322 mdls_inv_8.IN.t11 mdls_inv_2.SS 0.301f
+C323 mdls_inv_8.IN.n6 mdls_inv_2.SS 0.489f
+C324 mdls_inv_8.IN.t8 mdls_inv_2.SS 0.3f
+C325 mdls_inv_8.IN.n7 mdls_inv_2.SS 0.227f
+C326 mdls_inv_8.IN.n8 mdls_inv_2.SS 0.0354f
+C327 mdls_inv_8.IN.t13 mdls_inv_2.SS 0.376f
+C328 mdls_inv_8.IN.n9 mdls_inv_2.SS 0.295f
+C329 mdls_inv_8.IN.n10 mdls_inv_2.SS 0.0983f
+C330 mdls_inv_8.IN.n11 mdls_inv_2.SS 0.294f
+C331 mdls_inv_8.IN.t5 mdls_inv_2.SS 0.376f
+C332 mdls_inv_8.IN.n12 mdls_inv_2.SS 0.307f
+C333 mdls_inv_8.IN.n13 mdls_inv_2.SS 0.282f
+C334 mdls_inv_8.IN.t12 mdls_inv_2.SS 0.406f
+C335 mdls_inv_8.IN.n14 mdls_inv_2.SS 0.641f
+C336 mdls_inv_8.IN.n15 mdls_inv_2.SS 0.606f
+C337 mdls_inv_8.IN.t9 mdls_inv_2.SS 0.14f
+C338 mdls_inv_8.IN.t4 mdls_inv_2.SS 0.009f
+C339 mdls_inv_8.IN.n16 mdls_inv_2.SS 0.103f
+C340 mdls_inv_8.IN.n17 mdls_inv_2.SS 0.265f
+C341 mdls_inv_8.IN.n18 mdls_inv_2.SS 0.376f
+C342 mdls_inv_8.IN.t1 mdls_inv_2.SS 0.548f
+C343 mdls_inv_8.IN.t2 mdls_inv_2.SS 0.585f
+C344 mdls_inv_8.IN.t3 mdls_inv_2.SS 0.548f
+C345 mdls_inv_8.IN.n19 mdls_inv_2.SS 0.163f
+C346 mdls_inv_8.IN.n20 mdls_inv_2.SS 0.157f
+C347 mdls_inv_8.IN.t0 mdls_inv_2.SS 0.0495f
+C348 mdls_inv_8.IN.n21 mdls_inv_2.SS 0.412f
+C349 mdls_inv_1.OUT mdls_inv_2.SS 0.0825f
+C350 a_1326_n5292.t5 mdls_inv_2.SS 0.95f
+C351 a_1326_n5292.t0 mdls_inv_2.SS 0.451f
+C352 a_1326_n5292.t3 mdls_inv_2.SS 0.0858f
+C353 a_1326_n5292.n0 mdls_inv_2.SS 0.91f
+C354 a_1326_n5292.t2 mdls_inv_2.SS 1.01f
+C355 a_1326_n5292.t1 mdls_inv_2.SS 0.946f
+C356 a_1326_n5292.n1 mdls_inv_2.SS 0.234f
+C357 a_1326_n5292.n2 mdls_inv_2.SS 0.154f
+C358 a_1326_n5292.n3 mdls_inv_2.SS 0.172f
+C359 a_1326_n5292.t6 mdls_inv_2.SS 1.01f
+C360 a_1326_n5292.n4 mdls_inv_2.SS 0.244f
+C361 a_1326_n5292.t4 mdls_inv_2.SS 0.939f
+C362 mdls_inv_1.IN mdls_inv_2.SS 0.484f
+C363 mdls_inv_0.OUT.n0 mdls_inv_2.SS 0.299f
+C364 mdls_inv_0.OUT.n1 mdls_inv_2.SS 0.312f
+C365 mdls_inv_0.OUT.t3 mdls_inv_2.SS 0.652f
+C366 mdls_inv_0.OUT.t1 mdls_inv_2.SS 0.652f
+C367 mdls_inv_0.OUT.t0 mdls_inv_2.SS 0.696f
+C368 mdls_inv_0.OUT.n2 mdls_inv_2.SS 0.194f
+C369 mdls_inv_0.OUT.n3 mdls_inv_2.SS 0.186f
+C370 mdls_inv_0.OUT.t2 mdls_inv_2.SS 0.0589f
+C371 mdls_inv_0.OUT.n4 mdls_inv_2.SS 0.494f
+C372 mdls_inv_0.OUT.t15 mdls_inv_2.SS 0.181f
+C373 mdls_inv_0.OUT.t8 mdls_inv_2.SS 0.182f
+C374 mdls_inv_0.OUT.n5 mdls_inv_2.SS 0.529f
+C375 mdls_inv_0.OUT.t7 mdls_inv_2.SS 0.233f
+C376 mdls_inv_0.OUT.n6 mdls_inv_2.SS 0.0909f
+C377 mdls_inv_0.OUT.n7 mdls_inv_2.SS 0.448f
+C378 mdls_inv_0.OUT.n8 mdls_inv_2.SS 0.58f
+C379 mdls_inv_0.OUT.t12 mdls_inv_2.SS 0.36f
+C380 mdls_inv_0.OUT.t11 mdls_inv_2.SS 0.357f
+C381 mdls_inv_0.OUT.n9 mdls_inv_2.SS 0.582f
+C382 mdls_inv_0.OUT.t6 mdls_inv_2.SS 0.358f
+C383 mdls_inv_0.OUT.n10 mdls_inv_2.SS 0.582f
+C384 mdls_inv_0.OUT.t5 mdls_inv_2.SS 0.357f
+C385 mdls_inv_0.OUT.t13 mdls_inv_2.SS 0.448f
+C386 mdls_inv_0.OUT.n11 mdls_inv_2.SS 0.351f
+C387 mdls_inv_0.OUT.n12 mdls_inv_2.SS 0.117f
+C388 mdls_inv_0.OUT.n13 mdls_inv_2.SS 0.35f
+C389 mdls_inv_0.OUT.t10 mdls_inv_2.SS 0.447f
+C390 mdls_inv_0.OUT.n14 mdls_inv_2.SS 0.335f
+C391 mdls_inv_0.OUT.t14 mdls_inv_2.SS 0.482f
+C392 mdls_inv_0.OUT.n15 mdls_inv_2.SS 0.801f
+C393 mdls_inv_0.OUT.n16 mdls_inv_2.SS 0.847f
+C394 mdls_inv_0.OUT.t9 mdls_inv_2.SS 0.166f
+C395 mdls_inv_0.OUT.t4 mdls_inv_2.SS 0.0107f
+C396 mdls_inv_0.OUT.n17 mdls_inv_2.SS 0.123f
+C397 mdls_inv_0.OUT.n18 mdls_inv_2.SS 0.315f
+

@@ -1,0 +1,79 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_62AYNZ in circuit mdls_inv (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_P9XYHJ in circuit mdls_inv (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_G2G9KE in circuit mdls_inv (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_NCVK88 in circuit mdls_inv (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_P34KHJ in circuit mdls_inv (0)(2 instances)
+
+Cell mdls_inv (0) disconnected node: a_2701_260#
+Class mdls_inv (0):  Merged 5 parallel devices.
+Cell mdls_inv (0) disconnected node: a_2701_260#
+Subcircuit summary:
+Circuit 1: mdls_inv                        |Circuit 2: mdls_inv                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (8->3)         |sky130_fd_pr__nfet_01v8_lvt (8->3)         
+sky130_fd_pr__pfet_01v8_lvt (3)            |sky130_fd_pr__pfet_01v8_lvt (3)            
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: mdls_inv                        |Circuit 2: mdls_inv                        
+-------------------------------------------|-------------------------------------------
+SS                                         |SS                                         
+DD                                         |DD                                         
+OUT                                        |OUT                                        
+IN                                         |IN                                         
+a_2701_260#                                |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes mdls_inv and mdls_inv are equivalent.
+  Flattening non-matched subcircuits mdls_inv mdls_inv
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_P9XYHJ in circuit ring_100mV_buffer (0)(24 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_G2G9KE in circuit ring_100mV_buffer (0)(6 instances)
+
+Class ring_100mV_buffer (0):  Merged 26 parallel devices.
+Subcircuit summary:
+Circuit 1: ring_100mV_buffer               |Circuit 2: ring_100mV_buffer               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (24->2)        |sky130_fd_pr__nfet_01v8_lvt (24->2)        
+sky130_fd_pr__pfet_01v8_lvt (6->2)         |sky130_fd_pr__pfet_01v8_lvt (6->2)         
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: ring_100mV_buffer               |Circuit 2: ring_100mV_buffer               
+-------------------------------------------|-------------------------------------------
+SS                                         |SS                                         
+DD                                         |DD                                         
+IN                                         |IN                                         
+(no matching pin)                          |OUT                                        
+---------------------------------------------------------------------------------------
+Cell pin lists for ring_100mV_buffer and ring_100mV_buffer altered to match.
+Device classes ring_100mV_buffer and ring_100mV_buffer are equivalent.
+  Flattening non-matched subcircuits ring_100mV_buffer ring_100mV_buffer
+
+Subcircuit summary:
+Circuit 1: ring_100mV.spice                |Circuit 2: ring_100mV_sch.spice            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (104->32)      |sky130_fd_pr__nfet_01v8_lvt (104->32)      
+sky130_fd_pr__pfet_01v8_lvt (36->32)       |sky130_fd_pr__pfet_01v8_lvt (36->32)       
+Number of devices: 64                      |Number of devices: 64                      
+Number of nets: 34                         |Number of nets: 34                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes ring_100mV.spice and ring_100mV_sch.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

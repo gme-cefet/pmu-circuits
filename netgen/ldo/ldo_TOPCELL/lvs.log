@@ -1,0 +1,40 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_5VYM7K in circuit ldo.spice (0)(10 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_TRB9BZ in circuit ldo.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_8D4JM4 in circuit ldo.spice (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_4FSB7X in circuit ldo.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_EFQJD4 in circuit ldo.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_W6ELF5 in circuit ldo.spice (0)(1 instance)
+
+Class ldo.spice (0):  Merged 11 parallel devices.
+Subcircuit summary:
+Circuit 1: ldo.spice                       |Circuit 2: ldo_sch.spice                   
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (12->5)        |sky130_fd_pr__nfet_01v8_lvt (12->5)        
+sky130_fd_pr__pfet_01v8 (6->3)             |sky130_fd_pr__pfet_01v8 (6->3)             
+sky130_fd_pr__pfet_01v8_lvt (3->2)         |sky130_fd_pr__pfet_01v8_lvt (3->2)         
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+Number of devices: 11                      |Number of devices: 11                      
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes ldo.spice and ldo_sch.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

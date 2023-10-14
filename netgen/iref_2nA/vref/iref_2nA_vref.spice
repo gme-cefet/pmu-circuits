@@ -1,0 +1,15 @@
+* NGSPICE file created from iref_2nA_vref.ext - technology: sky130A
+
+
+* Top level circuit iref_2nA_vref
+
+X0 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X1 DD a_n1179_n2108# w_297_n2846# DD sky130_fd_pr__pfet_01v8 ad=0.687 pd=5.32 as=0.687 ps=5.32 w=2.37 l=4.38
+X2 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X3 DD DD a_n1179_n2108# DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=4
+X4 a_n1179_n2108# w_297_n2846# VREF DD sky130_fd_pr__pfet_01v8_lvt ad=0.995 pd=7.44 as=0.995 ps=7.44 w=3.43 l=2.77
+X5 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X6 w_297_n2846# w_297_n2846# SS w_297_n2846# sky130_fd_pr__pfet_01v8_lvt ad=0.255 pd=2.34 as=0.255 ps=2.34 w=0.88 l=6.97
+X7 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+.end
+

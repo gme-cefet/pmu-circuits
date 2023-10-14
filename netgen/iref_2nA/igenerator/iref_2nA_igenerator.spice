@@ -1,0 +1,14 @@
+* NGSPICE file created from iref_2nA_igenerator.ext - technology: sky130A
+
+
+* Top level circuit iref_2nA_igenerator
+
+X0 SS Vg Ip2 SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X1 SS Vg Ip2 SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X2 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt ad=4.64 pd=36.1 as=0.725 ps=5.58 w=2.5 l=1
+X3 a_4603_n2846# Vg Ip1 SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X4 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0 ps=0 w=2.5 l=1
+X5 SS VCTAT a_4603_n2846# SS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=5
+X6 a_4603_n2846# Vg Ip1 SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+.end
+

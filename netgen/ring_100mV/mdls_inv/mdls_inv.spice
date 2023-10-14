@@ -1,0 +1,18 @@
+* NGSPICE file created from mdls_inv.ext - technology: sky130A
+
+
+* Top level circuit mdls_inv
+
+X0 OUT IN a_1466_1108# DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X1 a_1466_1108# IN DD DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+X2 DD OUT a_1466_1108# SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X3 OUT IN a_n10_290# SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X4 OUT IN a_n10_290# SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X5 a_n10_290# IN SS SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+X6 SS OUT a_n10_290# DD sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+X7 OUT IN a_n10_290# SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X8 OUT IN a_n10_290# SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+X9 DD OUT a_1466_1108# SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+X10 a_n10_290# IN SS SS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+.end
+

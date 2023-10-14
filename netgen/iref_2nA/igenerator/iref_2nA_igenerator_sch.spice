@@ -1,0 +1,21 @@
+** sch_path: /home/cass/eda/pmu-circuits/xschem/iref_2nA_igenerator.sch
+**.subckt iref_2nA_igenerator SS VCTAT Ip1 Vg Ip2
+*.iopin SS
+*.ipin VCTAT
+*.iopin Ip1
+*.iopin Vg
+*.iopin Ip2
+XM1 Ip1 Vg VPTAT SS sky130_fd_pr__nfet_01v8_lvt L=1 W=2.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2
+XM2 Ip2 Vg SS SS sky130_fd_pr__nfet_01v8_lvt L=1 W=2.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2
+XM3 VPTAT VCTAT SS SS sky130_fd_pr__nfet_01v8_lvt L=5 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM4 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt L=1 W=2.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2
+**.ends
+.end

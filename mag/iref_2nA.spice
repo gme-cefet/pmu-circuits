@@ -1,0 +1,108 @@
+* NGSPICE file created from iref_2nA.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_4HNDKD a_n500_n188# a_n660_n274# a_500_n100# a_n558_n100#
+X0 a_500_n100# a_n500_n188# a_n558_n100# a_n660_n274# sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=5
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_C9VRMX a_n158_n250# a_n100_n338# a_100_n250# VSUBS
+X0 a_100_n250# a_n100_n338# a_n158_n250# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+.ends
+
+.subckt iref_2nA_igenerator Ip2 Ip1 Vg VCTAT SS
+Xsky130_fd_pr__nfet_01v8_lvt_4HNDKD_0 VCTAT SS SS li_5063_n2421# sky130_fd_pr__nfet_01v8_lvt_4HNDKD
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_0 Ip2 Vg SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_1 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_3 Ip1 Vg li_5063_n2421# SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_4 Ip1 Vg li_5063_n2421# SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_6 Ip2 Vg SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_7 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_NTRJ8S a_200_n250# w_n294_n350# a_n200_n347# a_n258_n250#
+X0 a_200_n250# a_n200_n347# a_n258_n250# w_n294_n350# sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_WCVK8S a_n200_n147# a_n258_n50# a_200_n50# w_n294_n150#
+X0 a_200_n50# a_n200_n147# a_n258_n50# w_n294_n150# sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=2
+.ends
+
+.subckt iref_2nA_mirrors Iref Ip2 Ip1 Vg DD SS
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_7 li_395_966# DD Ip1 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_6 li_1196_964# DD Ip1 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_8 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_9 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_40 m1_792_538# DD m1_792_538# m1_9767_755# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_30 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_31 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_20 Iref DD m1_792_538# li_5100_2660# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_42 m1_9767_755# DD m1_9767_755# DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_41 m1_792_538# DD m1_792_538# m1_9767_755# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_0 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_10 li_5100_2660# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_21 li_452_n361# DD m1_792_538# li_4299_2662# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_32 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_43 m1_9767_755# DD m1_9767_755# DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_1 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_2 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_22 li_5100_2660# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_11 li_4299_2662# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_33 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_3 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_10 m1_792_538# li_452_n361# SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_23 li_4299_2662# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_34 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_12 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_4 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_11 li_452_n361# li_452_n361# SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_35 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_5 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_13 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_12 li_452_n361# li_452_n361# SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_36 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_6 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_14 Iref DD m1_792_538# li_5100_2660# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_13 m1_792_538# li_452_n361# SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_WCVK8S_7 DD DD DD DD sky130_fd_pr__pfet_01v8_lvt_WCVK8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_37 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_26 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_15 li_452_n361# DD m1_792_538# li_4299_2662# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_14 Vg li_452_n361# SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_27 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_16 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_38 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_15 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_39 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_18 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_17 Ip2 DD m1_792_538# m1_373_2671# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_8 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_19 m1_373_2671# DD Ip2 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__nfet_01v8_lvt_C9VRMX_9 Vg li_452_n361# SS SS sky130_fd_pr__nfet_01v8_lvt_C9VRMX
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_0 Ip1 DD m1_792_538# li_395_966# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_1 Vg DD m1_792_538# li_1196_964# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_2 Vg DD m1_792_538# li_1196_964# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_3 Ip1 DD m1_792_538# li_395_966# sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_4 li_395_966# DD Ip1 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+Xsky130_fd_pr__pfet_01v8_lvt_NTRJ8S_5 li_1196_964# DD Ip1 DD sky130_fd_pr__pfet_01v8_lvt_NTRJ8S
+.ends
+
+.subckt iref_2nA_vref VREF DD
+X0 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X1 DD a_n1179_n2108# w_297_n2846# DD sky130_fd_pr__pfet_01v8 ad=0.687 pd=5.32 as=0.687 ps=5.32 w=2.37 l=4.38
+X2 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X3 DD DD a_n1179_n2108# DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=4
+X4 a_n1179_n2108# w_297_n2846# VREF DD sky130_fd_pr__pfet_01v8_lvt ad=0.995 pd=7.44 as=0.995 ps=7.44 w=3.43 l=2.77
+X5 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X6 w_297_n2846# w_297_n2846# SS w_297_n2846# sky130_fd_pr__pfet_01v8_lvt ad=0.255 pd=2.34 as=0.255 ps=2.34 w=0.88 l=6.97
+X7 VREF SS SS VREF sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+.ends
+
+
+* Top level circuit iref_2nA
+
+Xiref_2nA_igenerator_0 iref_2nA_mirrors_0/Ip2 iref_2nA_mirrors_0/Ip1 iref_2nA_mirrors_0/Vg
++ iref_2nA_vref_0/VREF iref_2nA_vref_0/SS iref_2nA_igenerator
+Xiref_2nA_mirrors_0 IREF iref_2nA_mirrors_0/Ip2 iref_2nA_mirrors_0/Ip1 iref_2nA_mirrors_0/Vg
++ DD iref_2nA_vref_0/SS iref_2nA_mirrors
+Xiref_2nA_vref_0 iref_2nA_vref_0/VREF DD iref_2nA_vref
+.end
+

@@ -1,0 +1,78 @@
+* NGSPICE file created from iref_2nA.ext - technology: sky130A
+
+
+* Top level circuit iref_2nA
+
+X0 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X1 a_2148_n986# a_n2653_n1386# iref_2nA_mirrors_0.Iref iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X2 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X3 iref_2nA_mirrors_0.DD a_6925_n2613# a_6925_n2613# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X4 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=17.7 pd=144 as=0.145 ps=1.58 w=0.5 l=2
+X5 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X6 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=2
+X7 iref_2nA_igenerator_0.SS a_n2293_n4637# iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X8 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X9 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X10 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1 a_n2540_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X11 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X12 iref_2nA_igenerator_0.SS a_n2293_n4637# a_n2293_n4637# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X13 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=11.9 pd=91.9 as=0.725 ps=5.58 w=2.5 l=1
+X14 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0 ps=0 w=2.5 l=1
+X15 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X16 iref_2nA_igenerator_0.SS a_n2293_n4637# a_n2653_n1386# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X17 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X18 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0.725 ps=5.58 w=2.5 l=1
+X19 a_5277_n3513# w_4156_n3885# iref_2nA_igenerator_0.VCTAT iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.995 pd=7.44 as=0.995 ps=7.44 w=3.43 l=2.77
+X20 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X21 iref_2nA_igenerator_0.Ip1 iref_2nA_igenerator_0.Vg a_1661_n3640# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X22 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X23 a_n2540_n2682# a_n2653_n1386# iref_2nA_igenerator_0.Ip1 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X24 a_n1756_n2682# a_n2653_n1386# iref_2nA_igenerator_0.Vg iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X25 iref_2nA_igenerator_0.SS a_n2293_n4637# a_n2653_n1386# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X26 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X27 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X28 a_2148_n986# a_n2653_n1386# iref_2nA_mirrors_0.Iref iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X29 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0.725 ps=5.58 w=2.5 l=1
+X30 a_6925_n2613# a_n2653_n1386# a_n2653_n1386# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X31 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X32 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1 a_n2540_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X33 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=2
+X34 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1 a_n1756_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X35 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X36 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X37 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X38 iref_2nA_igenerator_0.SS a_n2293_n4637# a_n2293_n4637# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X39 iref_2nA_igenerator_0.Ip1 iref_2nA_igenerator_0.Vg a_1661_n3640# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X40 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X41 iref_2nA_mirrors_0.DD a_6925_n2613# a_6925_n2613# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X42 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X43 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X44 a_1661_n3640# iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=5
+X45 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X46 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X47 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD a_5277_n3513# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=4
+X48 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X49 a_1364_n986# a_n2653_n1386# a_n2293_n4637# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X50 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X51 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X52 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X53 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X54 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X55 a_1364_n986# a_n2653_n1386# a_n2293_n4637# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X56 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X57 iref_2nA_igenerator_0.SS a_n2293_n4637# iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X58 iref_2nA_mirrors_0.DD a_5277_n3513# w_4156_n3885# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8 ad=0.687 pd=5.32 as=0.687 ps=5.32 w=2.37 l=4.38
+X59 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_1364_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X60 a_n1756_n2682# a_n2653_n1386# iref_2nA_igenerator_0.Vg iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X61 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_2148_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X62 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X63 a_6925_n2613# a_n2653_n1386# a_n2653_n1386# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X64 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1 a_n1756_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X65 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=2
+X66 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_2148_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X67 a_n2540_n2682# a_n2653_n1386# iref_2nA_igenerator_0.Ip1 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X68 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_1364_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X69 a_n2556_n986# a_n2653_n1386# iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X70 w_4156_n3885# w_4156_n3885# iref_2nA_igenerator_0.SS w_4156_n3885# sky130_fd_pr__pfet_01v8_lvt ad=0.255 pd=2.34 as=0.255 ps=2.34 w=0.88 l=6.97
+.end
+

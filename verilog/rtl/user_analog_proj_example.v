@@ -15,7 +15,7 @@
 
 `default_nettype none
 
-`include "example_por.v"
+`include "pmu_circuits.v"
 
 /*
  * I/O mapping for analog
@@ -59,23 +59,6 @@
  * mprj_io[1]   io_in/out/oeb/in_3v3[1]   ---                    ---
  * mprj_io[0]   io_in/out/oeb/in_3v3[0]   ---                    ---
  *
- */
-
-/*
- *----------------------------------------------------------------
- *
- * user_analog_proj_example
- *
- * This is an example of a (trivially simple) analog user project,
- * showing how the user project can connect to the I/O pads, both
- * the digital pads, the analog connection on the digital pads,
- * and the dedicated analog pins used as an additional power supply
- * input, with a connected ESD clamp.
- *
- * See the testbench in directory "mprj_por" for the example
- * program that drives this user project.
- *
- *----------------------------------------------------------------
  */
 
 module user_analog_proj_example (
@@ -134,29 +117,8 @@ module user_analog_proj_example (
     wire [`MPRJ_IO_PADS-`ANALOG_PADS-1:0] io_oeb;
     wire [`ANALOG_PADS-1:0] io_analog;
 
-    // wire [31:0] rdata; 
-    // wire [31:0] wdata;
-
-    // wire valid;
-    // wire [3:0] wstrb;
-
     wire isupply;	// Independent 3.3V supply
     wire io16, io15, io12, io11;
-
-    // WB MI A
-    // assign valid = wbs_cyc_i && wbs_stb_i; 
-    // assign wstrb = wbs_sel_i & {4{wbs_we_i}};
-    // assign wbs_dat_o = rdata;
-    // assign wdata = wbs_dat_i;
-
-    // IO --- unused (no need to connect to anything)
-    // assign io_out[`MPRJ_IO_PADS-`ANALOG_PADS-1:17] = 0;
-    // assign io_out[14:13] = 11'b0;
-    // assign io_out[10:0] = 11'b0;
-
-    // assign io_oeb[`MPRJ_IO_PADS-`ANALOG_PADS-1:17] = -1;
-    // assign io_oeb[14:13] = 11'b1;
-    // assign io_oeb[10:0] = 11'b1;
 
     // IO --- enable outputs on 11, 12, 15, and 16
     assign io_out[12:11] = {io12, io11};
@@ -167,25 +129,22 @@ module user_analog_proj_example (
 
     // IRQ
     assign irq = 3'b000;	// Unused
-
-    // LA --- unused (no need to connect to anything)
-    // assign la_data_out = {128{1'b0}};	// Unused
-
-    // Instantiate the POR.  Connect the digital power to user area 1
-    // VCCD, and connect the analog power to user area 1 VDDA.
-
-    // Monitor the 3.3V output with mprj_io[10] = gpio_analog[3]
-    // Monitor the 1.8V outputs with mprj_io[11,12] = io_out[11,12]
-
-    example_por por1 (
+	
+	
+	//Fabian: the short circuit between iref and vref is intentional to test the precheck
+    pmu_circuits pmu01 (
 	`ifdef USE_POWER_PINS
-	    .vdd3v3(vdda1),
-	    .vdd1v8(vccd1),
-	    .vss(vssa1),
+	    .dd_01(vccd1),
+	    .dd_02(vdda1),
+	    .ss(vssa1),
 	`endif
-	.porb_h(gpio_analog[3]),	// 3.3V domain output
-	.porb_l(io11),			// 1.8V domain output
-	.por_l(io12)			// 1.8V domain output
+	.ldo_iref(gpio_analog[7]),
+	.ldo_vb(io12),
+	.ldo_vs(io16),
+	.ldo_out(io15),
+	.ring_out(gpio_analog[3]),
+	.iref(io11),
+	.vref(io11)
     );
 
     // Instantiate 2nd POR with the analog power supply on one of the
@@ -202,19 +161,6 @@ module user_analog_proj_example (
     	assign io_clamp_low[2:1] = vssa1;
     `endif
 
-    // Monitor the 3.3V output with mprj_io[25] = gpio_analog[7]
-    // Monitor the 1.8V outputs with mprj_io[26,27] = io_out[15,16]
-
-    example_por por2 (
-	`ifdef USE_POWER_PINS
-	    .vdd3v3(isupply),
-	    .vdd1v8(vccd1),
-	    .vss(vssa1),
-	`endif
-	.porb_h(gpio_analog[7]),	// 3.3V domain output
-	.porb_l(io15),			// 1.8V domain output
-	.por_l(io16)			// 1.8V domain output
-    );
 
 endmodule
 

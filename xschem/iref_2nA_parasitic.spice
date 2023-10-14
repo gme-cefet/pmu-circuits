@@ -1,0 +1,335 @@
+*Iref_2nA with parasitics
+
+X0 a_n2556_n986.t9 a_n2653_n1386.t6 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X1 a_2148_n986# a_n2653_n1386.t7 iref_2nA_mirrors_0.Iref iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X2 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X3 iref_2nA_mirrors_0.DD a_6925_n2613.t4 a_6925_n2613.t5 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X4 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=17.7 pd=144 as=0.145 ps=1.58 w=0.5 l=2
+X5 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t19 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X6 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=2
+X7 iref_2nA_igenerator_0.SS a_n2293_n4637.t6 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X8 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t18 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X9 a_n2556_n986.t8 a_n2653_n1386.t8 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X10 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1.t3 a_n2540_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X11 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t17 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X12 iref_2nA_igenerator_0.SS a_n2293_n4637.t4 a_n2293_n4637.t5 iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X13 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=11.9 pd=91.9 as=0.725 ps=5.58 w=2.5 l=1
+X14 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0 ps=0 w=2.5 l=1
+X15 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X16 iref_2nA_igenerator_0.SS a_n2293_n4637.t7 a_n2653_n1386.t4 iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X17 a_n2556_n986.t7 a_n2653_n1386.t9 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X18 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0.725 ps=5.58 w=2.5 l=1
+X19 a_5277_n3513.t1 w_4156_n3885# iref_2nA_igenerator_0.VCTAT iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.995 pd=7.44 as=0.995 ps=7.44 w=3.43 l=2.77
+X20 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t16 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X21 iref_2nA_igenerator_0.Ip1 iref_2nA_igenerator_0.Vg a_1661_n3640# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X22 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t15 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X23 a_n2540_n2682# a_n2653_n1386.t10 iref_2nA_igenerator_0.Ip1.t1 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X24 a_n1756_n2682# a_n2653_n1386.t11 iref_2nA_igenerator_0.Vg iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X25 iref_2nA_igenerator_0.SS a_n2293_n4637.t8 a_n2653_n1386.t5 iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X26 a_n2556_n986.t6 a_n2653_n1386.t12 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X27 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X28 a_2148_n986# a_n2653_n1386.t13 iref_2nA_mirrors_0.Iref iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X29 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0.725 ps=5.58 w=2.5 l=1
+X30 a_6925_n2613.t1 a_n2653_n1386.t0 a_n2653_n1386.t1 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X31 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t14 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X32 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1.t4 a_n2540_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X33 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=2
+X34 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1.t5 a_n1756_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X35 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X36 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t13 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X37 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t12 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X38 iref_2nA_igenerator_0.SS a_n2293_n4637.t2 a_n2293_n4637.t3 iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X39 iref_2nA_igenerator_0.Ip1.t2 iref_2nA_igenerator_0.Vg a_1661_n3640# iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X40 iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.VCTAT sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X41 iref_2nA_mirrors_0.DD a_6925_n2613.t2 a_6925_n2613.t3 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X42 a_n2556_n986.t5 a_n2653_n1386.t14 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X43 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X44 a_1661_n3640# iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=5
+X45 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t11 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X46 a_n2556_n986.t4 a_n2653_n1386.t15 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X47 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD a_5277_n3513.t0 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=4
+X48 a_n2556_n986.t3 a_n2653_n1386.t16 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X49 a_1364_n986# a_n2653_n1386.t17 a_n2293_n4637.t1 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X50 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X51 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_n2556_n986.t10 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X52 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X53 a_n2556_n986.t2 a_n2653_n1386.t18 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X54 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X55 a_1364_n986# a_n2653_n1386.t19 a_n2293_n4637.t0 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X56 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=2
+X57 iref_2nA_igenerator_0.SS a_n2293_n4637.t9 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=1
+X58 iref_2nA_mirrors_0.DD a_5277_n3513.t2 w_4156_n3885# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8 ad=0.687 pd=5.32 as=0.687 ps=5.32 w=2.37 l=4.38
+X59 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_1364_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X60 a_n1756_n2682# a_n2653_n1386.t20 iref_2nA_igenerator_0.Vg iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X61 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_2148_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X62 a_n2556_n986.t1 a_n2653_n1386.t21 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X63 a_6925_n2613.t0 a_n2653_n1386.t2 a_n2653_n1386.t3 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X64 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1.t6 a_n1756_n2682# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X65 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=2
+X66 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_2148_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X67 a_n2540_n2682# a_n2653_n1386.t22 iref_2nA_igenerator_0.Ip1.t0 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X68 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip2 a_1364_n986# iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X69 a_n2556_n986.t0 a_n2653_n1386.t23 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD sky130_fd_pr__pfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=2
+X70 w_4156_n3885# w_4156_n3885# iref_2nA_igenerator_0.SS w_4156_n3885# sky130_fd_pr__pfet_01v8_lvt ad=0.255 pd=2.34 as=0.255 ps=2.34 w=0.88 l=6.97
+R0 a_n2653_n1386.t14 a_n2653_n1386.n4 151.024
+R1 a_n2653_n1386.t11 a_n2653_n1386.t20 75.728
+R2 a_n2653_n1386.t6 a_n2653_n1386.t14 75.728
+R3 a_n2653_n1386.t18 a_n2653_n1386.t6 75.728
+R4 a_n2653_n1386.t15 a_n2653_n1386.t18 75.728
+R5 a_n2653_n1386.t9 a_n2653_n1386.t15 75.728
+R6 a_n2653_n1386.t17 a_n2653_n1386.t9 75.728
+R7 a_n2653_n1386.t7 a_n2653_n1386.t17 75.728
+R8 a_n2653_n1386.t13 a_n2653_n1386.t7 75.728
+R9 a_n2653_n1386.t19 a_n2653_n1386.t13 75.728
+R10 a_n2653_n1386.t23 a_n2653_n1386.t19 75.728
+R11 a_n2653_n1386.t8 a_n2653_n1386.t23 75.728
+R12 a_n2653_n1386.t16 a_n2653_n1386.t8 75.728
+R13 a_n2653_n1386.t21 a_n2653_n1386.t16 75.728
+R14 a_n2653_n1386.t12 a_n2653_n1386.t21 75.728
+R15 a_n2653_n1386.t20 a_n2653_n1386.t10 73.0385
+R16 a_n2653_n1386.n4 a_n2653_n1386.t11 61.9359
+R17 a_n2653_n1386.n1 a_n2653_n1386.t12 41.3671
+R18 a_n2653_n1386.n1 a_n2653_n1386.t2 38.4888
+R19 a_n2653_n1386.n0 a_n2653_n1386.t0 37.8394
+R20 a_n2653_n1386.n5 a_n2653_n1386.t5 13.6556
+R21 a_n2653_n1386.n3 a_n2653_n1386.t3 11.428
+R22 a_n2653_n1386.n2 a_n2653_n1386.t1 11.428
+R23 a_n2653_n1386.n4 a_n2653_n1386.t22 11.0702
+R24 a_n2653_n1386.t4 a_n2653_n1386.n5 10.6813
+R25 a_n2653_n1386.n5 a_n2653_n1386.n1 7.31031
+R26 a_n2653_n1386.n1 a_n2653_n1386.n3 0.573403
+R27 a_n2653_n1386.n0 a_n2653_n1386.n2 0.555619
+R28 a_n2653_n1386.n3 a_n2653_n1386.n0 0.403391
+R29 a_n2556_n986.n9 a_n2556_n986.t12 11.554
+R30 a_n2556_n986.n0 a_n2556_n986.t19 11.554
+R31 a_n2556_n986.n3 a_n2556_n986.t18 11.554
+R32 a_n2556_n986.n4 a_n2556_n986.t17 11.554
+R33 a_n2556_n986.n5 a_n2556_n986.t16 11.554
+R34 a_n2556_n986.n6 a_n2556_n986.t15 11.554
+R35 a_n2556_n986.n1 a_n2556_n986.t14 11.554
+R36 a_n2556_n986.n7 a_n2556_n986.t10 11.554
+R37 a_n2556_n986.n8 a_n2556_n986.t11 11.554
+R38 a_n2556_n986.n2 a_n2556_n986.t13 11.554
+R39 a_n2556_n986.n0 a_n2556_n986.t0 11.5402
+R40 a_n2556_n986.n3 a_n2556_n986.t6 11.5402
+R41 a_n2556_n986.n4 a_n2556_n986.t1 11.5402
+R42 a_n2556_n986.n5 a_n2556_n986.t3 11.5402
+R43 a_n2556_n986.n6 a_n2556_n986.t8 11.5402
+R44 a_n2556_n986.n1 a_n2556_n986.t7 11.5402
+R45 a_n2556_n986.n7 a_n2556_n986.t4 11.5402
+R46 a_n2556_n986.n8 a_n2556_n986.t2 11.5402
+R47 a_n2556_n986.n2 a_n2556_n986.t5 11.5402
+R48 a_n2556_n986.t9 a_n2556_n986.n9 11.5402
+R49 a_n2556_n986.n1 a_n2556_n986.n0 7.86782
+R50 a_n2556_n986.n4 a_n2556_n986.n3 1.26396
+R51 a_n2556_n986.n5 a_n2556_n986.n4 1.26396
+R52 a_n2556_n986.n6 a_n2556_n986.n5 1.26396
+R53 a_n2556_n986.n8 a_n2556_n986.n7 1.26396
+R54 a_n2556_n986.n9 a_n2556_n986.n2 1.26396
+R55 a_n2556_n986.n9 a_n2556_n986.n8 1.26396
+R56 a_n2556_n986.n7 a_n2556_n986.n1 1.26396
+R57 a_n2556_n986.n0 a_n2556_n986.n6 1.26396
+R58 a_6925_n2613.n0 a_6925_n2613.t2 37.8394
+R59 a_6925_n2613.n0 a_6925_n2613.t4 37.8394
+R60 a_6925_n2613.n3 a_6925_n2613.t0 11.428
+R61 a_6925_n2613.n1 a_6925_n2613.t1 11.428
+R62 a_6925_n2613.n1 a_6925_n2613.t3 11.428
+R63 a_6925_n2613.t5 a_6925_n2613.n3 11.428
+R64 a_6925_n2613.n2 a_6925_n2613.n1 0.233133
+R65 a_6925_n2613.n3 a_6925_n2613.n2 0.233133
+R66 a_6925_n2613.n2 a_6925_n2613.n0 0.185423
+R67 a_n2293_n4637.n0 a_n2293_n4637.n8 113.371
+R68 a_n2293_n4637.n4 a_n2293_n4637.n1 113.371
+R69 a_n2293_n4637.n6 a_n2293_n4637.t8 74.6407
+R70 a_n2293_n4637.n2 a_n2293_n4637.t7 74.6407
+R71 a_n2293_n4637.t4 a_n2293_n4637.n3 73.5102
+R72 a_n2293_n4637.t2 a_n2293_n4637.n7 73.5102
+R73 a_n2293_n4637.n4 a_n2293_n4637.t4 73.5085
+R74 a_n2293_n4637.n1 a_n2293_n4637.t9 73.5085
+R75 a_n2293_n4637.n8 a_n2293_n4637.t6 73.5085
+R76 a_n2293_n4637.n0 a_n2293_n4637.t2 73.5085
+R77 a_n2293_n4637.n5 a_n2293_n4637.t0 14.0543
+R78 a_n2293_n4637.n5 a_n2293_n4637.t1 11.7371
+R79 a_n2293_n4637.n0 a_n2293_n4637.t3 7.79415
+R80 a_n2293_n4637.t5 a_n2293_n4637.n0 7.49661
+R81 a_n2293_n4637.n0 a_n2293_n4637.n5 5.59997
+R82 a_n2293_n4637.n3 a_n2293_n4637.n2 1.13093
+R83 a_n2293_n4637.n7 a_n2293_n4637.n6 1.13093
+R84 a_n2293_n4637.n0 a_n2293_n4637.n4 0.985754
+R85 iref_2nA_igenerator_0.Ip1.n0 iref_2nA_igenerator_0.Ip1.t3 21.4396
+R86 iref_2nA_igenerator_0.Ip1.n0 iref_2nA_igenerator_0.Ip1.t5 18.8004
+R87 iref_2nA_igenerator_0.Ip1.n1 iref_2nA_igenerator_0.Ip1.t6 18.8004
+R88 iref_2nA_igenerator_0.Ip1.n2 iref_2nA_igenerator_0.Ip1.t4 18.8004
+R89 iref_2nA_igenerator_0.Ip1.n3 iref_2nA_igenerator_0.Ip1.t0 11.5885
+R90 iref_2nA_mirrors_0.Ip1 iref_2nA_igenerator_0.Ip1.t1 11.5081
+R91 iref_2nA_igenerator_0.Ip1.n4 iref_2nA_igenerator_0.Ip1.t2 8.4133
+R92 iref_2nA_mirrors_0.Ip1 iref_2nA_igenerator_0.Ip1.n2 7.51509
+R93 iref_2nA_igenerator_0.Ip1.n3 iref_2nA_mirrors_0.Ip1 3.81778
+R94 iref_2nA_igenerator_0.Ip1.n1 iref_2nA_igenerator_0.Ip1.n0 2.63976
+R95 iref_2nA_igenerator_0.Ip1.n2 iref_2nA_igenerator_0.Ip1.n1 2.63976
+R96 iref_2nA_igenerator_0.Ip1.n4 iref_2nA_igenerator_0.Ip1.n3 1.93205
+R97 iref_2nA_igenerator_0.Ip1 iref_2nA_igenerator_0.Ip1.n4 0.428
+R98 a_5277_n3513.n0 a_5277_n3513.t0 57.4135
+R99 a_5277_n3513.n0 a_5277_n3513.t2 10.0395
+R100 a_5277_n3513.t1 a_5277_n3513.n0 9.18355
+C0 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.VCTAT 0.179f
+C1 a_n1756_n2682# iref_2nA_mirrors_0.DD 0.511f
+C2 iref_2nA_mirrors_0.DD a_1364_n986# 0.709f
+C3 iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.Ip1 0.00343f
+C4 a_n2540_n2682# a_n1756_n2682# 1.17f
+C5 a_1661_n3640# iref_2nA_mirrors_0.Iref 0.143f
+C6 w_4156_n3885# iref_2nA_mirrors_0.DD 1.82f
+C7 a_n2540_n2682# iref_2nA_mirrors_0.DD 0.784f
+C8 iref_2nA_igenerator_0.Ip2 a_n1756_n2682# 0.00404f
+C9 iref_2nA_igenerator_0.Ip2 a_1364_n986# 0.361f
+C10 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.DD 12.5f
+C11 a_2148_n986# a_1364_n986# 1.17f
+C12 a_2148_n986# iref_2nA_mirrors_0.DD 0.51f
+C13 a_n1756_n2682# iref_2nA_igenerator_0.Vg 0.156f
+C14 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Vg 0.51f
+C15 iref_2nA_igenerator_0.Ip2 w_4156_n3885# 0.117f
+C16 iref_2nA_igenerator_0.Ip2 a_n2540_n2682# 0.00384f
+C17 a_1661_n3640# iref_2nA_igenerator_0.VCTAT 0.264f
+C18 iref_2nA_igenerator_0.VCTAT iref_2nA_mirrors_0.Iref 0.963f
+C19 a_n2540_n2682# iref_2nA_igenerator_0.Vg 0.011f
+C20 a_n1756_n2682# iref_2nA_igenerator_0.Ip1 0.205f
+C21 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.Ip1 6.04f
+C22 iref_2nA_igenerator_0.Ip2 a_2148_n986# 0.21f
+C23 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.Vg 0.354f
+C24 a_n2540_n2682# iref_2nA_igenerator_0.Ip1 0.491f
+C25 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.Ip1 0.493f
+C26 iref_2nA_mirrors_0.DD a_1661_n3640# 0.00179f
+C27 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.Ip1 1.14f
+C28 a_1364_n986# iref_2nA_mirrors_0.Iref 0.00626f
+C29 iref_2nA_mirrors_0.DD iref_2nA_mirrors_0.Iref 0.813f
+C30 w_4156_n3885# a_1661_n3640# 6.92e-21
+C31 w_4156_n3885# iref_2nA_mirrors_0.Iref 0.219f
+C32 iref_2nA_igenerator_0.Ip2 a_1661_n3640# 0.32f
+C33 iref_2nA_igenerator_0.Ip2 iref_2nA_mirrors_0.Iref 1.16f
+C34 iref_2nA_igenerator_0.VCTAT a_1364_n986# 3.09e-19
+C35 a_1661_n3640# iref_2nA_igenerator_0.Vg 0.785f
+C36 a_2148_n986# iref_2nA_mirrors_0.Iref 0.157f
+C37 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.VCTAT 0.324f
+C38 iref_2nA_igenerator_0.Vg iref_2nA_mirrors_0.Iref 0.0774f
+C39 w_4156_n3885# iref_2nA_igenerator_0.VCTAT 0.242f
+C40 a_1661_n3640# iref_2nA_igenerator_0.Ip1 0.595f
+C41 iref_2nA_mirrors_0.Iref iref_2nA_igenerator_0.Ip1 0.00398f
+C42 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.VCTAT 0.0708f
+C43 a_1661_n3640# iref_2nA_igenerator_0.SS 0.941f
+C44 iref_2nA_igenerator_0.Vg iref_2nA_igenerator_0.SS 7.41f
+C45 a_n1756_n2682# iref_2nA_igenerator_0.SS 0.267f
+C46 a_n2540_n2682# iref_2nA_igenerator_0.SS 0.311f
+C47 iref_2nA_igenerator_0.Ip1 iref_2nA_igenerator_0.SS 3.7f
+C48 iref_2nA_mirrors_0.Iref iref_2nA_igenerator_0.SS 4.85f
+C49 a_2148_n986# iref_2nA_igenerator_0.SS 0.267f
+C50 a_1364_n986# iref_2nA_igenerator_0.SS 0.339f
+C51 iref_2nA_igenerator_0.Ip2 iref_2nA_igenerator_0.SS 9.72f
+C52 w_4156_n3885# iref_2nA_igenerator_0.SS 6.67f
+C53 iref_2nA_igenerator_0.VCTAT iref_2nA_igenerator_0.SS 13.7f
+C54 iref_2nA_mirrors_0.DD iref_2nA_igenerator_0.SS 0.113p
+C55 a_5277_n3513.t2 iref_2nA_igenerator_0.SS 0.852f
+C56 a_5277_n3513.t0 iref_2nA_igenerator_0.SS 0.0037f
+C57 a_5277_n3513.n0 iref_2nA_igenerator_0.SS 1.4f
+C58 a_5277_n3513.t1 iref_2nA_igenerator_0.SS 0.0412f
+C59 iref_2nA_mirrors_0.Ip1 iref_2nA_igenerator_0.SS 0.956f
+C60 iref_2nA_igenerator_0.Ip1.t2 iref_2nA_igenerator_0.SS 0.0634f
+C61 iref_2nA_igenerator_0.Ip1.t0 iref_2nA_igenerator_0.SS 0.0268f
+C62 iref_2nA_igenerator_0.Ip1.t1 iref_2nA_igenerator_0.SS 0.0262f
+C63 iref_2nA_igenerator_0.Ip1.t3 iref_2nA_igenerator_0.SS 0.557f
+C64 iref_2nA_igenerator_0.Ip1.t5 iref_2nA_igenerator_0.SS 0.453f
+C65 iref_2nA_igenerator_0.Ip1.n0 iref_2nA_igenerator_0.SS 1.59f
+C66 iref_2nA_igenerator_0.Ip1.t6 iref_2nA_igenerator_0.SS 0.453f
+C67 iref_2nA_igenerator_0.Ip1.n1 iref_2nA_igenerator_0.SS 0.852f
+C68 iref_2nA_igenerator_0.Ip1.t4 iref_2nA_igenerator_0.SS 0.453f
+C69 iref_2nA_igenerator_0.Ip1.n2 iref_2nA_igenerator_0.SS 0.971f
+C70 iref_2nA_igenerator_0.Ip1.n3 iref_2nA_igenerator_0.SS 0.842f
+C71 iref_2nA_igenerator_0.Ip1.n4 iref_2nA_igenerator_0.SS 0.716f
+C72 a_n2293_n4637.n0 iref_2nA_igenerator_0.SS 0.606f
+C73 a_n2293_n4637.t9 iref_2nA_igenerator_0.SS 0.0633f
+C74 a_n2293_n4637.n1 iref_2nA_igenerator_0.SS 0.0962f
+C75 a_n2293_n4637.t7 iref_2nA_igenerator_0.SS 0.104f
+C76 a_n2293_n4637.n2 iref_2nA_igenerator_0.SS 0.125f
+C77 a_n2293_n4637.n3 iref_2nA_igenerator_0.SS 0.0654f
+C78 a_n2293_n4637.t4 iref_2nA_igenerator_0.SS 0.0633f
+C79 a_n2293_n4637.n4 iref_2nA_igenerator_0.SS 0.0792f
+C80 a_n2293_n4637.t0 iref_2nA_igenerator_0.SS 0.0398f
+C81 a_n2293_n4637.t1 iref_2nA_igenerator_0.SS 0.00857f
+C82 a_n2293_n4637.n5 iref_2nA_igenerator_0.SS 0.702f
+C83 a_n2293_n4637.t8 iref_2nA_igenerator_0.SS 0.104f
+C84 a_n2293_n4637.n6 iref_2nA_igenerator_0.SS 0.125f
+C85 a_n2293_n4637.n7 iref_2nA_igenerator_0.SS 0.0654f
+C86 a_n2293_n4637.t2 iref_2nA_igenerator_0.SS 0.0633f
+C87 a_n2293_n4637.t6 iref_2nA_igenerator_0.SS 0.0633f
+C88 a_n2293_n4637.n8 iref_2nA_igenerator_0.SS 0.0962f
+C89 a_n2293_n4637.t3 iref_2nA_igenerator_0.SS 0.0168f
+C90 a_n2293_n4637.t5 iref_2nA_igenerator_0.SS 0.0133f
+C91 a_6925_n2613.t2 iref_2nA_igenerator_0.SS 0.394f
+C92 a_6925_n2613.t4 iref_2nA_igenerator_0.SS 0.394f
+C93 a_6925_n2613.n0 iref_2nA_igenerator_0.SS 0.416f
+C94 a_6925_n2613.t1 iref_2nA_igenerator_0.SS 0.0122f
+C95 a_6925_n2613.t3 iref_2nA_igenerator_0.SS 0.0122f
+C96 a_6925_n2613.n1 iref_2nA_igenerator_0.SS 0.355f
+C97 a_6925_n2613.n2 iref_2nA_igenerator_0.SS 0.137f
+C98 a_6925_n2613.t0 iref_2nA_igenerator_0.SS 0.0122f
+C99 a_6925_n2613.n3 iref_2nA_igenerator_0.SS 0.355f
+C100 a_6925_n2613.t5 iref_2nA_igenerator_0.SS 0.0122f
+C101 a_n2556_n986.n0 iref_2nA_igenerator_0.SS 0.9f
+C102 a_n2556_n986.n1 iref_2nA_igenerator_0.SS 0.9f
+C103 a_n2556_n986.t13 iref_2nA_igenerator_0.SS 0.028f
+C104 a_n2556_n986.t5 iref_2nA_igenerator_0.SS 0.0279f
+C105 a_n2556_n986.n2 iref_2nA_igenerator_0.SS 0.372f
+C106 a_n2556_n986.t14 iref_2nA_igenerator_0.SS 0.028f
+C107 a_n2556_n986.t7 iref_2nA_igenerator_0.SS 0.0279f
+C108 a_n2556_n986.t18 iref_2nA_igenerator_0.SS 0.028f
+C109 a_n2556_n986.t6 iref_2nA_igenerator_0.SS 0.0279f
+C110 a_n2556_n986.n3 iref_2nA_igenerator_0.SS 0.372f
+C111 a_n2556_n986.t17 iref_2nA_igenerator_0.SS 0.028f
+C112 a_n2556_n986.t1 iref_2nA_igenerator_0.SS 0.0279f
+C113 a_n2556_n986.n4 iref_2nA_igenerator_0.SS 0.45f
+C114 a_n2556_n986.t16 iref_2nA_igenerator_0.SS 0.028f
+C115 a_n2556_n986.t3 iref_2nA_igenerator_0.SS 0.0279f
+C116 a_n2556_n986.n5 iref_2nA_igenerator_0.SS 0.45f
+C117 a_n2556_n986.t15 iref_2nA_igenerator_0.SS 0.028f
+C118 a_n2556_n986.t8 iref_2nA_igenerator_0.SS 0.0279f
+C119 a_n2556_n986.n6 iref_2nA_igenerator_0.SS 0.448f
+C120 a_n2556_n986.t19 iref_2nA_igenerator_0.SS 0.028f
+C121 a_n2556_n986.t0 iref_2nA_igenerator_0.SS 0.0279f
+C122 a_n2556_n986.t10 iref_2nA_igenerator_0.SS 0.028f
+C123 a_n2556_n986.t4 iref_2nA_igenerator_0.SS 0.0279f
+C124 a_n2556_n986.n7 iref_2nA_igenerator_0.SS 0.448f
+C125 a_n2556_n986.t11 iref_2nA_igenerator_0.SS 0.028f
+C126 a_n2556_n986.t2 iref_2nA_igenerator_0.SS 0.0279f
+C127 a_n2556_n986.n8 iref_2nA_igenerator_0.SS 0.45f
+C128 a_n2556_n986.t12 iref_2nA_igenerator_0.SS 0.028f
+C129 a_n2556_n986.n9 iref_2nA_igenerator_0.SS 0.45f
+C130 a_n2556_n986.t9 iref_2nA_igenerator_0.SS 0.0279f
+C131 a_n2653_n1386.n0 iref_2nA_igenerator_0.SS 0.683f
+C132 a_n2653_n1386.n1 iref_2nA_igenerator_0.SS 3.17f
+C133 a_n2653_n1386.t2 iref_2nA_igenerator_0.SS 0.285f
+C134 a_n2653_n1386.t3 iref_2nA_igenerator_0.SS 0.0162f
+C135 a_n2653_n1386.t1 iref_2nA_igenerator_0.SS 0.0162f
+C136 a_n2653_n1386.n2 iref_2nA_igenerator_0.SS 0.418f
+C137 a_n2653_n1386.t0 iref_2nA_igenerator_0.SS 0.288f
+C138 a_n2653_n1386.n3 iref_2nA_igenerator_0.SS 0.146f
+C139 a_n2653_n1386.t22 iref_2nA_igenerator_0.SS 0.46f
+C140 a_n2653_n1386.t10 iref_2nA_igenerator_0.SS 0.86f
+C141 a_n2653_n1386.t20 iref_2nA_igenerator_0.SS 0.873f
+C142 a_n2653_n1386.t11 iref_2nA_igenerator_0.SS 0.802f
+C143 a_n2653_n1386.n4 iref_2nA_igenerator_0.SS 0.773f
+C144 a_n2653_n1386.t14 iref_2nA_igenerator_0.SS 1.57f
+C145 a_n2653_n1386.t6 iref_2nA_igenerator_0.SS 0.858f
+C146 a_n2653_n1386.t18 iref_2nA_igenerator_0.SS 0.858f
+C147 a_n2653_n1386.t15 iref_2nA_igenerator_0.SS 0.858f
+C148 a_n2653_n1386.t9 iref_2nA_igenerator_0.SS 0.858f
+C149 a_n2653_n1386.t17 iref_2nA_igenerator_0.SS 0.858f
+C150 a_n2653_n1386.t7 iref_2nA_igenerator_0.SS 0.858f
+C151 a_n2653_n1386.t13 iref_2nA_igenerator_0.SS 0.858f
+C152 a_n2653_n1386.t19 iref_2nA_igenerator_0.SS 0.858f
+C153 a_n2653_n1386.t23 iref_2nA_igenerator_0.SS 0.858f
+C154 a_n2653_n1386.t8 iref_2nA_igenerator_0.SS 0.858f
+C155 a_n2653_n1386.t16 iref_2nA_igenerator_0.SS 0.858f
+C156 a_n2653_n1386.t21 iref_2nA_igenerator_0.SS 0.858f
+C157 a_n2653_n1386.t12 iref_2nA_igenerator_0.SS 0.607f
+C158 a_n2653_n1386.t5 iref_2nA_igenerator_0.SS 0.211f
+C159 a_n2653_n1386.n5 iref_2nA_igenerator_0.SS 2.6f
+C160 a_n2653_n1386.t4 iref_2nA_igenerator_0.SS 0.122f

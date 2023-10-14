@@ -1,0 +1,85 @@
+* NGSPICE file created from ring_100mV.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_62AYNZ a_n158_n550# a_n100_n638# a_100_n550# VSUBS
+X0 a_100_n550# a_n100_n638# a_n158_n550# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_P9XYHJ a_80_n550# a_n138_n550# a_n80_n638# VSUBS
+X0 a_80_n550# a_n80_n638# a_n138_n550# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.8
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_G2G9KE a_n138_n100# a_n80_n197# a_80_n100# w_n174_n200#
+X0 a_80_n100# a_n80_n197# a_n138_n100# w_n174_n200# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.8
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_NCVK88 a_n258_n100# a_n200_n197# a_200_n100# w_n294_n200#
+X0 a_200_n100# a_n200_n197# a_n258_n100# w_n294_n200# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=2
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_P34KHJ a_40_n550# a_n98_n550# a_n40_n638# VSUBS
+X0 a_40_n550# a_n40_n638# a_n98_n550# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.6 pd=11.6 as=1.6 ps=11.6 w=5.5 l=0.4
+.ends
+
+.subckt mdls_inv a_2701_260# OUT IN DD SS
+Xsky130_fd_pr__nfet_01v8_lvt_62AYNZ_1 li_n14_266# IN SS SS sky130_fd_pr__nfet_01v8_lvt_62AYNZ
+Xsky130_fd_pr__nfet_01v8_lvt_62AYNZ_0 li_n14_266# IN SS SS sky130_fd_pr__nfet_01v8_lvt_62AYNZ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_4 OUT li_n14_266# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_5 OUT li_n14_266# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_6 OUT li_n14_266# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_7 OUT li_n14_266# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_0 m1_2309_1084# IN OUT DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_1 li_n14_266# OUT SS DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__pfet_01v8_lvt_NCVK88_0 m1_2309_1084# IN DD DD sky130_fd_pr__pfet_01v8_lvt_NCVK88
+Xsky130_fd_pr__nfet_01v8_lvt_P34KHJ_0 m1_2309_1084# DD OUT SS sky130_fd_pr__nfet_01v8_lvt_P34KHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P34KHJ_1 m1_2309_1084# DD OUT SS sky130_fd_pr__nfet_01v8_lvt_P34KHJ
+.ends
+
+.subckt ring_100mV_buffer IN DD SS
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_28 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_29 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_0 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_17 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_18 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_1 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_19 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_2 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_3 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_4 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_5 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_6 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_7 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_8 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_0 li_8388_n2876# IN DD DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_1 DD IN li_8388_n2876# DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_2 DD li_8388_n2876# OUT DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_3 OUT li_8388_n2876# DD DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_4 OUT li_8388_n2876# DD DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__pfet_01v8_lvt_G2G9KE_5 DD li_8388_n2876# OUT DD sky130_fd_pr__pfet_01v8_lvt_G2G9KE
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_30 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_31 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_20 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_21 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_22 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_23 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_25 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_26 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_27 OUT SS li_8388_n2876# SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+Xsky130_fd_pr__nfet_01v8_lvt_P9XYHJ_16 SS li_8388_n2876# IN SS sky130_fd_pr__nfet_01v8_lvt_P9XYHJ
+.ends
+
+
+* Top level circuit ring_100mV
+
+Xmdls_inv_0 SS mdls_inv_1/IN mdls_inv_0/IN DD SS mdls_inv
+Xmdls_inv_1 SS mdls_inv_8/IN mdls_inv_1/IN DD SS mdls_inv
+Xmdls_inv_2 SS mdls_inv_5/IN mdls_inv_3/IN DD SS mdls_inv
+Xmdls_inv_3 SS mdls_inv_3/OUT mdls_inv_3/IN DD SS mdls_inv
+Xmdls_inv_4 SS mdls_inv_3/IN mdls_inv_4/IN DD SS mdls_inv
+Xmdls_inv_5 SS mdls_inv_7/IN mdls_inv_5/IN DD SS mdls_inv
+Xmdls_inv_6 SS mdls_inv_4/IN mdls_inv_6/IN DD SS mdls_inv
+Xmdls_inv_7 SS mdls_inv_9/IN mdls_inv_7/IN DD SS mdls_inv
+Xmdls_inv_9 SS mdls_inv_0/IN mdls_inv_9/IN DD SS mdls_inv
+Xmdls_inv_8 SS mdls_inv_6/IN mdls_inv_8/IN DD SS mdls_inv
+Xring_100mV_buffer_0 mdls_inv_3/OUT DD SS ring_100mV_buffer
+.end
+

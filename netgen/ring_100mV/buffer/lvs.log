@@ -1,0 +1,26 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_P9XYHJ in circuit ring_100mV_buffer.spice (0)(24 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_G2G9KE in circuit ring_100mV_buffer.spice (0)(6 instances)
+
+Class ring_100mV_buffer.spice (0):  Merged 26 parallel devices.
+Subcircuit summary:
+Circuit 1: ring_100mV_buffer.spice         |Circuit 2: ring_100mV_buffer_sch.spice     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (24->2)        |sky130_fd_pr__nfet_01v8_lvt (24->2)        
+sky130_fd_pr__pfet_01v8_lvt (6->2)         |sky130_fd_pr__pfet_01v8_lvt (6->2)         
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes ring_100mV_buffer.spice and ring_100mV_buffer_sch.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.
