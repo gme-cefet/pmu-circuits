@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1697383992
+timestamp 1697389746
 << locali >>
 rect 350740 628506 353162 628636
 rect 350740 627242 350880 628506
@@ -1086,10 +1086,10 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
-use pmu_circuits  pmu_circuits_0
-timestamp 1697383992
-transform 1 0 335888 0 1 605750
-box -1074 5482 18938 20761
+use user_analog_proj_example  user_analog_proj_example_0
+timestamp 1697389416
+transform 1 0 324852 0 1 609388
+box 9962 1844 29974 17123
 << labels >>
 flabel metal3 s 583520 269230 584800 269342 0 FreeSans 1120 0 0 0 gpio_analog[0]
 port 0 nsew signal bidirectional

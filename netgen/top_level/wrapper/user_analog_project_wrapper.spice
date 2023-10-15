@@ -253,9 +253,17 @@ Xiref_2nA_0 dd_01 iref ss iref_2nA
 Xvref01_0 vref dd_01 ss vref01
 .ends
 
-*NETLIST TOP LEVEL
-Xpmu_circuits_0 gpio_analog[7] io_out[16] gpio_analog[3] io_out[11] vdda1 vccd1 io_out[12]
-+ io_out[15] io_out[11] vssa1 pmu_circuits
+.subckt user_analog_proj_example pmu_circuits_0/iref pmu_circuits_0/dd_02 pmu_circuits_0/dd_01
++ pmu_circuits_0/ldo_vb pmu_circuits_0/ldo_iref pmu_circuits_0/ring_out pmu_circuits_0/ldo_vs
++ pmu_circuits_0/ldo_out VSUBS pmu_circuits_0/vref
+Xpmu_circuits_0 pmu_circuits_0/ldo_iref pmu_circuits_0/ldo_vs pmu_circuits_0/ring_out
++ pmu_circuits_0/iref pmu_circuits_0/dd_02 pmu_circuits_0/dd_01 pmu_circuits_0/ldo_vb
++ pmu_circuits_0/ldo_out pmu_circuits_0/vref VSUBS pmu_circuits
+.ends
+
+
+Xuser_analog_proj_example_0 io_out[11] vdda1 vccd1 io_out[12] gpio_analog[7] gpio_analog[3]
++ io_out[16] io_out[15] vssa1 io_out[11] user_analog_proj_example
 R0 io_oeb[15] vssd1 sky130_fd_pr__res_generic_m3 w=0.56 l=0.6
 R1 io_analog[4] io_clamp_high[0] sky130_fd_pr__res_generic_m3 w=11 l=0.25
 R2 vssd1 io_oeb[11] sky130_fd_pr__res_generic_m3 w=0.56 l=0.58

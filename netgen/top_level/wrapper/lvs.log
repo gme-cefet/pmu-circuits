@@ -270,6 +270,7 @@ vref                                       |vref
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes pmu_circuits and pmu_circuits are equivalent.
+Flattening unmatched subcell user_analog_proj_example in circuit user_analog_project_wrapper.spice (0)(1 instance)
 
 Subcircuit summary:
 Circuit 1: user_analog_project_wrapper.spi |Circuit 2: user_analog_project_wrapper_sch 

@@ -253,6 +253,14 @@ Xiref_2nA_0 dd_01 iref ss iref_2nA
 Xvref01_0 vref dd_01 ss vref01
 .ends
 
+.subckt user_analog_proj_example pmu_circuits_0/iref pmu_circuits_0/dd_02 pmu_circuits_0/dd_01
++ pmu_circuits_0/ldo_vb pmu_circuits_0/ldo_iref pmu_circuits_0/ring_out pmu_circuits_0/ldo_vs
++ pmu_circuits_0/ldo_out VSUBS pmu_circuits_0/vref
+Xpmu_circuits_0 pmu_circuits_0/ldo_iref pmu_circuits_0/ldo_vs pmu_circuits_0/ring_out
++ pmu_circuits_0/iref pmu_circuits_0/dd_02 pmu_circuits_0/dd_01 pmu_circuits_0/ldo_vb
++ pmu_circuits_0/ldo_out pmu_circuits_0/vref VSUBS pmu_circuits
+.ends
+
 .subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
 + gpio_analog[12] gpio_analog[13] gpio_analog[14] gpio_analog[15] gpio_analog[16]
 + gpio_analog[17] gpio_analog[1] gpio_analog[2] gpio_analog[3] gpio_analog[4] gpio_analog[5]
@@ -359,8 +367,8 @@ Xvref01_0 vref dd_01 ss vref01
 + wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3] wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6]
 + wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
 + wbs_stb_i wbs_we_i
-Xpmu_circuits_0 gpio_analog[7] io_out[16] gpio_analog[3] io_out[11] vdda1 vccd1 io_out[12]
-+ io_out[15] io_out[11] vssa1 pmu_circuits
+Xuser_analog_proj_example_0 io_out[11] vdda1 vccd1 io_out[12] gpio_analog[7] gpio_analog[3]
++ io_out[16] io_out[15] vssa1 io_out[11] user_analog_proj_example
 R0 io_oeb[15] vssd1 sky130_fd_pr__res_generic_m3 w=0.56 l=0.6
 R1 io_analog[4] io_clamp_high[0] sky130_fd_pr__res_generic_m3 w=11 l=0.25
 R2 vssd1 io_oeb[11] sky130_fd_pr__res_generic_m3 w=0.56 l=0.58
