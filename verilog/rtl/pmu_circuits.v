@@ -28,7 +28,7 @@ module pmu_circuits(
 	output ldo_out,
 	output ring_out,
 	output iref,
-	output vref,
+	output vref
 );
 
 endmodule

@@ -28,8 +28,6 @@ X1 a_143_109# a_n143_21# a_n201_109# a_n303_n1321# sky130_fd_pr__nfet_01v8_lvt a
 .ends
 
 
-* Top level circuit ldo
-
 Xsky130_fd_pr__nfet_01v8_lvt_5VYM7K_0 Iref Iref SS SS sky130_fd_pr__nfet_01v8_lvt_5VYM7K
 Xsky130_fd_pr__nfet_01v8_lvt_5VYM7K_1 SS SS SS SS sky130_fd_pr__nfet_01v8_lvt_5VYM7K
 Xsky130_fd_pr__nfet_01v8_lvt_5VYM7K_2 Iref SS m1_9175_n5154# SS sky130_fd_pr__nfet_01v8_lvt_5VYM7K
@@ -52,5 +50,6 @@ Xsky130_fd_pr__cap_mim_m3_1_4FSB7X_0 m1_8616_n5605# OUT sky130_fd_pr__cap_mim_m3
 Xsky130_fd_pr__pfet_01v8_lvt_EFQJD4_0 DD OUT m1_8616_n5605# DD sky130_fd_pr__pfet_01v8_lvt_EFQJD4
 Xsky130_fd_pr__nfet_01v8_lvt_W6ELF5_0 VB m1_8616_n5605# m1_9116_n8088# m1_9116_n8088#
 + VB m1_8616_n5605# SS sky130_fd_pr__nfet_01v8_lvt_W6ELF5
+
 .end
 
