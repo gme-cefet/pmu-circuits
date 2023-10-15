@@ -226,8 +226,7 @@ Circuit 1: vref01                          |Circuit 2: vref01
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
 sky130_fd_pr__nfet_01v8_lvt (3->2)         |sky130_fd_pr__nfet_01v8_lvt (3->2)         
-sky130_fd_pr__diode_pd2nw_05v5_lvt (1)     |sky130_fd_pr__diode_pd2nw_05v5_lvt (1)     
-Number of devices: 4                       |Number of devices: 4                       
+Number of devices: 3                       |Number of devices: 3                       
 Number of nets: 4                          |Number of nets: 4                          
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.

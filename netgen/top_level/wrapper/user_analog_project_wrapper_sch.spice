@@ -189,7 +189,6 @@ XM2 gate gate VREF SS sky130_fd_pr__nfet_01v8_lvt L=3.10 W=1.72 nf=1 ad='int((nf
 XM3 VREF gate SS SS sky130_fd_pr__nfet_01v8 L=1.05 W=0.82 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1
-D1 VREF DD sky130_fd_pr__diode_pd2nw_05v5_lvt area=4.225e+11 pj=2.6e+06
 .ends
 
 

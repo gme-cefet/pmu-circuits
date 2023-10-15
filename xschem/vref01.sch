@@ -6,7 +6,7 @@ V {}
 S {}
 E {}
 N 120 -370 120 -300 {
-lab=#net1}
+lab=DD}
 N 120 -240 120 -210 {
 lab=gate}
 N 120 -150 120 -120 {
@@ -31,11 +31,6 @@ N 120 -180 140 -180 {
 lab=SS}
 N 120 -90 140 -90 {
 lab=SS}
-N 120 -320 310 -320 {}
-N 310 -320 310 -280 {}
-N 310 -220 310 -190 {}
-N 220 -190 310 -190 {}
-N 220 -190 220 -130 {}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 100 -270 0 0 {name=M1
 L=0.89
 W=6
@@ -89,8 +84,3 @@ C {devices/lab_pin.sym} 140 -90 1 0 {name=p6 sig_type=std_logic lab=SS}
 C {devices/opin.sym} 250 -130 0 0 {name=p2 lab=VREF}
 C {devices/iopin.sym} 120 -20 0 0 {name=p4 lab=SS}
 C {devices/iopin.sym} 120 -370 0 0 {name=p7 lab=DD}
-C {sky130_fd_pr/lvsdiode.sym} 310 -250 0 0 {name=D1
-model=diode_pd2nw_05v5_lvt
-area=4.225e+11
-pj=2.6e+06
-}

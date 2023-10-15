@@ -1,0 +1,86 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1697399585
+<< nwell >>
+rect -215 -215 215 215
+<< pwell >>
+rect -353 215 353 353
+rect -353 -215 -215 215
+rect 215 -215 353 215
+rect -353 -353 353 -215
+<< psubdiff >>
+rect -317 283 -221 317
+rect 221 283 317 317
+rect -317 221 -283 283
+rect 283 221 317 283
+rect -317 -283 -283 -221
+rect 283 -283 317 -221
+rect -317 -317 -221 -283
+rect 221 -317 317 -283
+<< nsubdiff >>
+rect -179 167 179 179
+rect -179 133 -71 167
+rect 71 133 179 167
+rect -179 121 179 133
+rect -179 71 -121 121
+rect -179 -71 -167 71
+rect -133 -71 -121 71
+rect 121 71 179 121
+rect -179 -121 -121 -71
+rect 121 -71 133 71
+rect 167 -71 179 71
+rect 121 -121 179 -71
+rect -179 -133 179 -121
+rect -179 -167 -71 -133
+rect 71 -167 179 -133
+rect -179 -179 179 -167
+<< psubdiffcont >>
+rect -221 283 221 317
+rect -317 -221 -283 221
+rect 283 -221 317 221
+rect -221 -317 221 -283
+<< nsubdiffcont >>
+rect -71 133 71 167
+rect -167 -71 -133 71
+rect 133 -71 167 71
+rect -71 -167 71 -133
+<< pdiodelvt >>
+rect -65 53 65 65
+rect -65 -53 -53 53
+rect 53 -53 65 53
+rect -65 -65 65 -53
+<< pdiodelvtc >>
+rect -53 -53 53 53
+<< locali >>
+rect -317 283 -221 317
+rect 221 283 317 317
+rect -317 221 -283 283
+rect 283 221 317 283
+rect -167 133 -71 167
+rect 71 133 167 167
+rect -167 71 -133 133
+rect 133 71 167 133
+rect -69 -53 -53 53
+rect 53 -53 69 53
+rect -167 -133 -133 -71
+rect 133 -133 167 -71
+rect -167 -167 -71 -133
+rect 71 -167 167 -133
+rect -317 -283 -283 -221
+rect 283 -283 317 -221
+rect -317 -317 -221 -283
+rect 221 -317 317 -283
+<< viali >>
+rect -53 -53 53 53
+<< metal1 >>
+rect -65 53 65 59
+rect -65 -53 -53 53
+rect 53 -53 65 53
+rect -65 -59 65 -53
+<< properties >>
+string FIXED_BBOX -150 -150 150 150
+string gencell sky130_fd_pr__diode_pd2nw_05v5_lvt
+string library sky130
+string parameters w 0.65 l 0.65 area 422.5m peri 2.6 nx 1 ny 1 dummy 0 lmin 0.45 wmin 0.45 elc 1 erc 1 etc 1 ebc 1 glc 1 grc 1 gtc 1 gbc 1 doverlap 1 compatible {sky130_fd_pr__diode_pd2nw_05v5 sky130_fd_pr__diode_pd2nw_05v5_lvt  sky130_fd_pr__diode_pd2nw_05v5_hvt sky130_fd_pr__diode_pd2nw_11v0} full_metal 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>

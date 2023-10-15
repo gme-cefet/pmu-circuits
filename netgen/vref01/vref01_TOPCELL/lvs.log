@@ -6,14 +6,15 @@ Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalen
 Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__diode_pd2nw_05v5_lvt_TF3SFX in circuit vref01.spice (0)(1 instance)
 
 Class vref01.spice (0):  Merged 1 parallel devices.
 Subcircuit summary:
 Circuit 1: vref01.spice                    |Circuit 2: vref01_sch.spice                
 -------------------------------------------|-------------------------------------------
+sky130_fd_pr__diode_pd2nw_05v5_lvt (1)     |sky130_fd_pr__diode_pd2nw_05v5_lvt (1)     
 sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
 sky130_fd_pr__nfet_01v8_lvt (3->2)         |sky130_fd_pr__nfet_01v8_lvt (3->2)         
-sky130_fd_pr__diode_pd2nw_05v5_lvt (1)     |sky130_fd_pr__diode_pd2nw_05v5_lvt (1)     
 Number of devices: 4                       |Number of devices: 4                       
 Number of nets: 4                          |Number of nets: 4                          
 ---------------------------------------------------------------------------------------

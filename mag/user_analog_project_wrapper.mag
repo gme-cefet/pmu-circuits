@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1697389746
+timestamp 1697402931
 << locali >>
 rect 350740 628506 353162 628636
 rect 350740 627242 350880 628506
@@ -1087,7 +1087,7 @@ rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
 use user_analog_proj_example  user_analog_proj_example_0
-timestamp 1697389416
+timestamp 1697402931
 transform 1 0 324852 0 1 609388
 box 9962 1844 29974 17123
 << labels >>
