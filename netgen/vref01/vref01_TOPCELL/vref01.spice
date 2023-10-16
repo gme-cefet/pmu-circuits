@@ -1,14 +1,11 @@
 * NGSPICE file created from vref01.ext - technology: sky130A
 
-.subckt sky130_fd_pr__diode_pd2nw_05v5_lvt_TF3SFX w_n215_n215# a_n65_n65#
-D0 a_n65_n65# w_n215_n215# sky130_fd_pr__diode_pd2nw_05v5_lvt pj=2.6e+06 area=4.225e+11
-.ends
-
-Xsky130_fd_pr__diode_pd2nw_05v5_lvt_TF3SFX_0 DD VREF sky130_fd_pr__diode_pd2nw_05v5_lvt_TF3SFX
+*.subckt vref01 VREF DD SS
 X0 SS a_n354_1346# VREF SS sky130_fd_pr__nfet_01v8 ad=0.238 pd=2.22 as=0.238 ps=2.22 w=0.82 l=1.05
 X1 DD a_n354_1346# a_n354_1346# SS sky130_fd_pr__nfet_01v8_lvt ad=1.74 pd=12.6 as=1.74 ps=12.6 w=6 l=0.89
 X2 VREF a_n354_1346# a_n354_1346# SS sky130_fd_pr__nfet_01v8_lvt ad=0.499 pd=4.02 as=0.499 ps=4.02 w=1.72 l=3.1
-X3 DD a_n354_1346# a_n354_1346# SS sky130_fd_pr__nfet_01v8_lvt ad=1.74 pd=12.6 as=1.74 ps=12.6 w=6 l=0.89
+X3 VREF VREF VREF DD sky130_fd_pr__pfet_01v8_lvt ad=17.2 pd=38.4 as=8.6 ps=19.2 w=8.6 l=0.35
+X4 DD a_n354_1346# a_n354_1346# SS sky130_fd_pr__nfet_01v8_lvt ad=1.74 pd=12.6 as=1.74 ps=12.6 w=6 l=0.89
 
 .end
 

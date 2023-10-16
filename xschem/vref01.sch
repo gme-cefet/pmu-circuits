@@ -23,14 +23,40 @@ N 40 -230 120 -230 {
 lab=gate}
 N 120 -60 120 -20 {
 lab=SS}
-N 120 -130 250 -130 {
-lab=VREF}
 N 120 -270 140 -270 {
 lab=SS}
 N 120 -180 140 -180 {
 lab=SS}
 N 120 -90 140 -90 {
 lab=SS}
+N 240 -160 240 -130 {
+lab=VREF}
+N 150 -130 240 -130 {
+lab=VREF}
+N 190 -240 210 -240 {
+lab=VREF}
+N 270 -240 290 -240 {
+lab=VREF}
+N 190 -240 190 -190 {
+lab=VREF}
+N 190 -190 240 -190 {
+lab=VREF}
+N 240 -200 240 -190 {
+lab=VREF}
+N 240 -190 290 -190 {
+lab=VREF}
+N 290 -240 290 -190 {
+lab=VREF}
+N 240 -190 240 -160 {
+lab=VREF}
+N 240 -260 240 -240 {
+lab=DD}
+N 240 -330 240 -260 {
+lab=DD}
+N 120 -330 240 -330 {
+lab=DD}
+N 120 -130 150 -130 {
+lab=VREF}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 100 -270 0 0 {name=M1
 L=0.89
 W=6
@@ -81,6 +107,20 @@ C {devices/lab_pin.sym} 140 -270 1 0 {name=p1 sig_type=std_logic lab=SS}
 C {devices/lab_pin.sym} 140 -180 1 0 {name=p5 sig_type=std_logic lab=SS
 }
 C {devices/lab_pin.sym} 140 -90 1 0 {name=p6 sig_type=std_logic lab=SS}
-C {devices/opin.sym} 250 -130 0 0 {name=p2 lab=VREF}
+C {devices/opin.sym} 240 -160 0 0 {name=p2 lab=VREF}
 C {devices/iopin.sym} 120 -20 0 0 {name=p4 lab=SS}
 C {devices/iopin.sym} 120 -370 0 0 {name=p7 lab=DD}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 240 -220 3 0 {name=M4
+L=0.35
+W=8.6
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 1'" 
+pd="'2*int((nf+1)/2) * (W/nf + 1)'"
+as="'int((nf+2)/2) * W/nf * 1'" 
+ps="'2*int((nf+2)/2) * (W/nf + 1)'"
+nrd="'1 / W'" nrs="'1 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}

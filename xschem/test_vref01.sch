@@ -14,8 +14,9 @@ subdivy=1
 
 divx=8
 subdivx=4
-node="vref"
-color=4
+node="vref
+vref_diode"
+color="4 12"
 unitx=n
 dataset=-1
 
@@ -32,8 +33,8 @@ subdivy=4
 x2=170.727
 divx=8
 subdivx=4
-node=i(v1)
-color=4
+
+
 unitx=n
 dataset=-1
 x1=-57.273
@@ -41,8 +42,10 @@ x1=-57.273
 
 logy=0
 
-y2=-200p
-y1=0}
+y2=-1000p
+y1=0
+color=11
+node=i(v1)}
 N 360 -720 360 -680 {
 lab=GND}
 N 420 -780 470 -780 {
@@ -70,10 +73,11 @@ value="
 ** this experimental option enables mos model bin 
 ** selection based on W/NF instead of W
 *.option wnflag=1 savecurrents
-.option gmin=1e-16 reltol=1e-3 vntol=1e-4 abstol=1e-16
+.option gmin=1e-15 reltol=1e-3 vntol=1e-4 abstol=1e-14
 
 .param vdd=1
 v1 dd 0 dc=vdd
+
 
 .control
   option seed = 8
@@ -84,16 +88,16 @@ v1 dd 0 dc=vdd
   reset
   set appendwrite
   dowhile run < = 1
-    save vref i(v1)
+    save vref i(v1) 
     * save all
     dc temp -40 150 1
     write test_vref01.raw
     let run = run + 1
     reset
   end
-  plot v(vref)
+  plot vref
 .endc
 "}
 C {devices/lab_pin.sym} 470 -780 0 0 {name=p1 sig_type=std_logic lab=VREF}
 C {devices/lab_pin.sym} 410 -880 0 0 {name=p2 sig_type=std_logic lab=DD}
-C {vref01.sym} 360 -780 0 0 {}
+C {vref01.sym} 360 -780 0 0 {name=x2}
