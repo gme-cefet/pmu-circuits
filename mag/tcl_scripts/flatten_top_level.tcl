@@ -2,8 +2,8 @@
 select top cell
 flatten aux
 load aux
-cellname delete user_analog_project_wrapper
-cellname rename aux user_analog_project_wrapper
+cellname delete pmu_circuits
+cellname rename aux pmu_circuits
 select top cell
 #extract
 #ext2spice lvs

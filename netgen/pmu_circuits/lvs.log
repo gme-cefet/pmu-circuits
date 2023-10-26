@@ -1,0 +1,49 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell ring_100mV in circuit pmu_circuits_sch.spice (1)(1 instance)
+Flattening unmatched subcell mdls_inv in circuit pmu_circuits_sch.spice (1)(10 instances)
+Flattening unmatched subcell ring_100mV_buffer in circuit pmu_circuits_sch.spice (1)(1 instance)
+Flattening unmatched subcell ldo in circuit pmu_circuits_sch.spice (1)(1 instance)
+Flattening unmatched subcell iref_2nA in circuit pmu_circuits_sch.spice (1)(1 instance)
+Flattening unmatched subcell iref_2nA_igenerator in circuit pmu_circuits_sch.spice (1)(1 instance)
+Flattening unmatched subcell iref_2nA_mirrors in circuit pmu_circuits_sch.spice (1)(1 instance)
+Flattening unmatched subcell iref_2nA_vref in circuit pmu_circuits_sch.spice (1)(1 instance)
+Flattening unmatched subcell vref01 in circuit pmu_circuits_sch.spice (1)(1 instance)
+
+Class pmu_circuits.spice (0):  Merged 135 parallel devices.
+Class pmu_circuits_sch.spice (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: pmu_circuits.spice              |Circuit 2: pmu_circuits_sch.spice          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (134->45)      |sky130_fd_pr__nfet_01v8_lvt (134->45)      
+sky130_fd_pr__pfet_01v8_lvt (91->51)       |sky130_fd_pr__pfet_01v8_lvt (91->51)       
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (11->5)            |sky130_fd_pr__pfet_01v8 (11->5)            
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+Number of devices: 103                     |Number of devices: 103                     
+Number of nets: 60                         |Number of nets: 60                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes pmu_circuits.spice and pmu_circuits_sch.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

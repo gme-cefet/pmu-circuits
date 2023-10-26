@@ -5,10 +5,6 @@ K {}
 V {}
 S {}
 E {}
-N 210 -540 210 -520 {
-lab=DD}
-N 210 -540 250 -540 {
-lab=DD}
 N 430 -460 470 -460 {
 lab=OUT}
 N 320 -380 470 -380 {
@@ -29,7 +25,7 @@ N 300 -460 320 -460 {
 lab=OUT_aux}
 N 230 -460 300 -460 {
 lab=OUT_aux}
-C {sky130_fd_pr/corner.sym} 310 -650 0 0 {name=CORNER only_toplevel=true corner=ss}
+C {sky130_fd_pr/corner.sym} 310 -650 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/code_shown.sym} 580 -680 0 0 {name=NGSPICE
 only_toplevel=true
 value="
@@ -38,7 +34,7 @@ value="
 .option gmin=1e-12 reltol=1e-3 vntol=1e-3 abstol=1e-12
 .option savecurrents
 
-.inc /home/cass/eda/pmu-circuits/xschem/ldo_parasitics.spice
+.inc /home/cass/eda/pmu-circuits/xschem/ldo_extracted.spice
 
 ***Sources
 v_ss ss 0 dc=0
@@ -59,7 +55,8 @@ v_dd dd 0 dc=1.8
 Xampop VREF OUT VS ampop_ext
 
 ** LDO SUBCIRCUIT
-XLDO dd ss Iref VB VS OUT_aux ldo
+XLDO Iref VB VS OUT_aux SS DD ldo
+     
 
 .control
 save all
@@ -80,7 +77,6 @@ footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 470 -380 1 0 {name=p1 sig_type=std_logic lab=SS}
 C {devices/lab_pin.sym} 470 -460 1 0 {name=p2 sig_type=std_logic lab=OUT}
-C {devices/lab_pin.sym} 250 -540 0 0 {name=p6 sig_type=std_logic lab=DD}
 C {devices/vsource.sym} 350 -460 3 0 {name=viout value=0}
 C {devices/vsource.sym} 90 -580 2 0 {name=v_ref value=1}
 C {devices/lab_pin.sym} 90 -530 0 0 {name=p7 sig_type=std_logic lab=SS}
