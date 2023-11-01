@@ -1,0 +1,16 @@
+Antenna violation checks on cell ../pmu_circuits
+--------------------------------------------
+
+Magic 8.3 revision 389 - Compiled on Wed Apr 12 10:38:02 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Loading "run_magic_antenna.tcl" from command line.
+Creating new cell
+Reading extract file.
+Using technology "minimum", version 0.0
+
+Error message output from magic:
+Cell pmu_circuits couldn't be read
+No such file or directory

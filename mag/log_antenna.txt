@@ -1,0 +1,37 @@
+Antenna violation checks on cell wrapper_top_level_routing_pmu
+--------------------------------------------
+
+Magic 8.3 revision 389 - Compiled on Wed Apr 12 10:38:02 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Loading "run_magic_antenna.tcl" from command line.
+File <wrapper_top_level_routing_pmu.mag> is already locked by pid 1290.  Opening read-only.
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Cell path is now "$CAD_ROOT/magic/sys/current $CAD_ROOT/magic/tutorial /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_pr/maglef /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_pr/mag /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/maglef /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_io/maglef /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_io/mag /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/maglef /home/cass/eda/unic-cass/share/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/mag"
+Input cell wrapper_top_level_routing_pmu scales magic internal geometry by factor of 2
+File <user_analog_project_wrapper_pmu.mag> is already locked by pid 1290.  Opening read-only.
+Scaled magic input cell user_analog_project_wrapper_pmu geometry by factor of 2
+File <pmu_circuits_top_level.mag> is already locked by pid 1290.  Opening read-only.
+File <pmu_circuits.mag> is already locked by pid 1290.  Opening read-only.
+pmu_circuits: 10000 rects
+Extracting user_analog_project_wrapper_pmu into user_analog_project_wrapper_pmu.ext:
+user_analog_project_wrapper_pmu: 38 warnings
+Extracting pmu_circuits into pmu_circuits.ext:
+pmu_circuits: 17 warnings
+Extracting pmu_circuits_top_level into pmu_circuits_top_level.ext:
+Extracting wrapper_top_level_routing_pmu into wrapper_top_level_routing_pmu.ext:
+Reading extract file.
+Building flattened netlist.
+Running antenna checks.
+antennacheck finished.
+Using technology "sky130A", version 1.0.406-0-g0c37b7c
+
+Error message output from magic:
+Cell wrapper_top_level_routing_pmu has technology "sky130A", but current technology is "minimum"
+Loading technology sky130A
+freeMagic called with NULL argument.
+Total of 55 warnings.

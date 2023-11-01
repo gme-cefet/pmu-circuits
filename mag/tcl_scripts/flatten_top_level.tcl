@@ -2,8 +2,8 @@
 select top cell
 flatten aux
 load aux
-cellname delete pmu_circuits
-cellname rename aux pmu_circuits
+cellname delete gme_cefet_top_level
+cellname rename aux gme_cefet_top_level
 select top cell
 #extract
 #ext2spice lvs
